@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* グローバルスタイル */
+body {
+  @apply text-gray-800 bg-white font-sans;
+}
+
+a {
+  @apply text-orange-600 hover:underline;
+}
+
+button {
+  @apply font-medium transition hover:opacity-80;
+}
+
+/* カスタムクラス */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

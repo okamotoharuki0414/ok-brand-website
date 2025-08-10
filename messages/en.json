@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "title": "Okamoto Foods Co., Ltd. | Unlock the Power of Fruit",
+    "description": "Founded in 1921. With over a century of expertise and dedication, we deliver safe and reliable foods made with carefully selected domestic ingredients."
+  },
+  "hero": {
+    "title": "Unlock the Power of Fruit",
+    "subtitle": "Founded in 1921. With over a century of expertise, we deliver safe, reliable foods made with carefully selected domestic ingredients.",
+    "cta": "View Products",
+    "scrollDown": "SCROLL DOWN"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "company": "Company",
+    "news": "News",
+    "recruit": "Careers",
+    "contact": "Contact"
+  },
+  "company": {
+    "heading": "About Us",
+    "subtitle": "History and Philosophy of Okamoto Foods",
+    "body": "Since our founding in 1921, we have delivered safe and reliable foods using carefully selected domestic ingredients, built on over a century of expertise and dedication.",
+    "viewMore": "Learn More About Our Company",
+    "mission": "We provide safe, reliable, and delicious food to everyone, contributing to a healthy and happy society",
+    "values": {
+      "quality": {
+        "title": "Quality First",
+        "description": "We deliver safe and reliable food products through our commitment to domestic ingredients and strict quality control."
+      },
+      "trust": {
+        "title": "Trusted Relationships",
+        "description": "Through long-standing relationships with our producers, we secure the highest quality ingredients."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We operate sustainably with environmental consideration, fulfilling our responsibility to future generations."
+      }
+    },
+    "greeting": {
+      "title": "Message from Management",
+      "president": "President & CEO",
+      "name": "Yoshihisa Okamoto",
+      "content1": "Our company was founded in May 1921 as a tomato sauce processor. For over 100 years, we have continued to create products with a commitment to domestic ingredients.",
+      "content2": "Based on our belief that 'good products can only be made from good ingredients,' we value our relationships with producers.",
+      "content3": "We sincerely appreciate your continued support and patronage as we move forward."
+    }
+  },
+  "products": {
+    "title": "OK BRAND Main Products",
+    "subtitle": "We deliver safe and reliable food products centered on domestic agricultural produce",
+    "viewMore": "View All Products",
+    "categories": {
+      "mikan": {
+        "title": "Mikan (Mandarin Orange)",
+        "description": "Fresh mandarins harvested at peak season are carefully processed by removing peels, seeds, and membranes, then preserved segment by segment in light syrup. Enjoy the enhanced fruit flavor in every bite.",
+        "products": {
+          "domesticCan": {
+            "name": "Domestic Mikan #1 Can (L/M) (Light Syrup)",
+            "description": "Light sweetness syrup-preserved domestic mikan canned product",
+            "specs": {
+              "shape": "Whole segments",
+              "package": "#1 Can×6",
+              "solidWeight": "1,700g",
+              "totalWeight": "3,050g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "Mikan (domestic), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "36 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521005004",
+              "itfCode": "14993521005001"
+            }
+          },
+          "pouche1kg": {
+            "name": "Mikan 1kg Pouch",
+            "description": "Light sweetness syrup-preserved Chinese mikan pouch type",
+            "specs": {
+              "shape": "Segments",
+              "package": "1kg Pouch",
+              "solidWeight": "1kg",
+              "shelfLife": "2 years",
+              "origin": "China"
+            }
+          },
+          "domesticPouch1kg": {
+            "name": "Domestic Mikan 1kg Pouch",
+            "description": "Light sweetness syrup-preserved domestic mikan pouch type",
+            "specs": {
+              "shape": "Segments",
+              "package": "1kg Pouch",
+              "solidWeight": "1kg",
+              "shelfLife": "2 years",
+              "origin": "Domestic",
+              "itemCode": "3011"
+            }
+          },
+          "chineseCan": {
+            "name": "Chinese Mikan #1 Can",
+            "description": "Light sweetness syrup-preserved Chinese mikan canned product",
+            "specs": {
+              "shape": "Segments",
+              "package": "#1 Can",
+              "solidWeight": "1800g",
+              "totalWeight": "3000g",
+              "shelfLife": "3 years",
+              "origin": "China"
+            }
+          }
+        }
+      },
+      "peach": {
+        "title": "Yellow Peach",
+        "description": "Domestic yellow peaches and premium Greek yellow peaches are processed by removing pits and peels, then conveniently diced. Preserved in light syrup to enjoy the natural deliciousness of the fruit flesh.",
+        "products": {
+          "domesticCanDiced": {
+            "name": "Domestic Yellow Peach Diced #1 Can",
+            "description": "Light sweetness syrup-preserved domestic yellow peach diced cut canned product"
+          },
+          "domesticPouch1kg": {
+            "name": "Domestic Yellow Peach Diced 1kg Pouch",
+            "description": "Light sweetness syrup-preserved domestic yellow peach diced cut pouch type"
+          },
+          "greekPouch1kg": {
+            "name": "Yellow Peach Diced 1kg Pouch",
+            "description": "Light sweetness syrup-preserved Greek yellow peach diced cut pouch type"
+          }
+        }
+      },
+      "tomato": {
+        "title": "Tomato",
+        "description": "Domestic tomatoes harvested at peak season are processed by removing cores and peeling, then preserved in squeezed tomato juice. No water is added during manufacturing, capturing the fresh flavor of domestic tomatoes. Available in diced cuts as well as rare whole types.",
+        "products": {
+          "domesticWhole": {
+            "name": "Domestic Tomato Whole #1 Can",
+            "description": "Rare whole type for domestic tomatoes"
+          },
+          "domesticDiced": {
+            "name": "Domestic Tomato Diced #1 Can",
+            "description": "Easy-to-use diced cut type"
+          },
+          "domesticPouch3kg": {
+            "name": "Domestic Cut Tomato 3kg Pouch",
+            "description": "Easy-to-use diced cut (pouch) type 3kg"
+          }
+        }
+      },
+      "mushroom": {
+        "title": "Mushroom",
+        "description": "Crisp and flavorful mushrooms are thinly sliced. We offer domestic varieties processed immediately after harvest, as well as mushrooms from major production areas in Europe and China. *Large volume frozen types (whole/sliced) are also available.",
+        "products": {
+          "domesticSlicedPouch": {
+            "name": "Domestic Mushroom Sliced 1kg Pouch",
+            "description": "Easy-to-use sliced domestic mushroom pouch type"
+          },
+          "chineseSlicedCan": {
+            "name": "Mushroom Sliced #1 Can",
+            "description": "Easy-to-use sliced Chinese mushroom canned product"
+          },
+          "europeanSlicedPouch": {
+            "name": "Mushroom Sliced (European Ingredients) 1kg Pouch",
+            "description": "Easy-to-use sliced Dutch mushroom pouch type"
+          },
+          "chineseSlicedPouch": {
+            "name": "Mushroom Sliced 1kg Pouch",
+            "description": "Easy-to-use sliced Chinese mushroom pouch type"
+          }
+        }
+      },
+      "pineapple": {
+        "title": "Pineapple",
+        "description": "Sweet and aromatic Thai pineapples are cut into bite-sized pieces. Preserved in light syrup to enjoy the natural deliciousness of the fruit flesh.",
+        "products": {
+          "tidbitsPouch1kg": {
+            "name": "Pineapple Tidbits 1kg Pouch",
+            "description": "Light sweetness syrup-preserved Thai pineapple bite-sized cut pouch type"
+          }
+        }
+      },
+      "mixedFruits": {
+        "title": "Mixed Fruits",
+        "description": "Mixed bite-sized pineapple (Thai), yellow peach (Greek), and mikan (domestic). Eliminates the need to prepare multiple fruits separately.",
+        "products": {
+          "mixedPouch1kg": {
+            "name": "Mixed Fruits 1kg Pouch",
+            "description": "Light sweetness syrup-preserved pineapple, yellow peach, and mikan mixed bite-sized cut pouch type"
+          }
+        }
+      },
+      "mikanPulp": {
+        "title": "Others (Mikan Pulp)",
+        "description": "Domestic 'granular mikan' pulp. Syrup-preserved pulp used as ingredients for beverages, yogurt, jelly, and other products.",
+        "products": {
+          "domesticPulpCan": {
+            "name": "Domestic Mikan Pulp #5 Can",
+            "description": "Light sweetness syrup-preserved domestic mikan granular mikan canned product"
+          }
+        }
+      },
+      "frozen": {
+        "title": "Frozen Fruits",
+        "description": "Frozen fruits featuring 'domestic fruits,' 'peeled,' and 'syrup-preserved' quality. We handle everything from fresh fruit procurement (direct from production areas) and primary processing to final products consistently. Domestic fruits are peeled, syrup-preserved, and individually frozen piece by piece.",
+        "products": {
+          "frozenMikan1kg": {
+            "name": "OK Frozen Fruits Domestic Mikan 1kg",
+            "description": "Syrup-preserved domestic mikan individually frozen for easy use"
+          },
+          "chillMikan110g": {
+            "name": "Chill Mikan 110g",
+            "description": "Syrup-preserved domestic mikan individually frozen for easy use"
+          },
+          "frozenPeach1kg": {
+            "name": "OK Frozen Fruits Domestic Yellow Peach 1kg",
+            "description": "Syrup-preserved domestic yellow peach individually frozen for easy use"
+          }
+        }
+      }
+    },
+    "specs": {
+      "shape": "Shape:",
+      "package": "Package:",
+      "solidWeight": "Solid Weight:",
+      "totalWeight": "Total Weight:",
+      "productSize": "Product Size:",
+      "caseSize": "Case Size:",
+      "ingredients": "Ingredients:",
+      "additives": "Additives:",
+      "shelfLife": "Shelf Life:",
+      "origin": "Origin:",
+      "janCode": "JAN Code:",
+      "itfCode": "ITF Code:",
+      "productDetails": "Product Details"
+    }
+  },
+  "news": {
+    "title": "News & Updates",
+    "subtitle": "Stay informed with our latest news and announcements",
+    "viewMore": "View All News",
+    "readMore": "Read More",
+    "backToList": "← Back to News List",
+    "detail": {
+      "jfsB": {
+        "title": "Obtained JFS-B Standard Compliance Certification",
+        "date": "May 28, 2024",
+        "category": "Quality Management",
+        "content": {
+          "intro": "Okamoto Foods Co., Ltd. obtained JFS-B Standard compliance certification operated by the Japan Food Safety Management Association (JFSM) in March 2024.",
+          "section1": {
+            "title": "About JFS-B Standards",
+            "content": "The JFS-B standard is an internationally harmonized food safety management standard originating from Japan, consisting of three requirement layers: Food Safety Management System (FSM), Hazard Control (HACCP), and Good Manufacturing Practice (GMP)."
+          },
+          "section2": {
+            "title": "Our Future Commitment",
+            "content": "We will continue to maintain this system and strive to further strengthen our quality control system so that we can continue to deliver safe and secure products to our customers."
+          },
+          "section3": {
+            "title": "Related Information",
+            "content": "Japan Food Safety Management Association (JFSM)",
+            "link": "https://www.jfsm.or.jp/scheme/documents/"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "companyName": "Okamoto Foods Co., Ltd.",
+    "tagline": "FOOD FOR YOUR SMILE",
+    "description": "We deliver safety, deliciousness, and smiles. With over a century of expertise and dedication, we provide safe and reliable foods made with carefully selected domestic ingredients.",
+    "address": "3-17 Kaname-cho, Minami-ku, Nagoya, Aichi 457-0802, Japan",
+    "phone": "TEL: +81-52-611-5301",
+    "fax": "FAX: +81-52-613-2607",
+    "copyright": "© 2024 Okamoto Foods Co., Ltd. All rights reserved.",
+    "productsTitle": "Products",
+    "companyTitle": "Company Information",
+    "productsList": "Product List",
+    "mikanProducts": "Mandarin Canned",
+    "peachProducts": "Yellow Peach Canned",
+    "frozenProducts": "Frozen Fruits",
+    "companyOverview": "Company Overview",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "features": {
+    "title": "Commitment to Domestic Ingredients",
+    "subtitle": "We implement contract cultivation and other initiatives to deliver safe, reliable, and delicious products.",
+    "qualityTitle": "Good products can only be made from good ingredients",
+    "qualityDescription": "Having produced agricultural canned goods for many years, we understand this principle better than anyone.",
+    "rawMaterialsDescription": "Our domestic ingredient products include mandarins, tomatoes, peaches, and more. Rather than simply buying and selling ingredients, our product development begins by working closely with producers to build trust relationships and determine how to consistently create high-quality ingredients.",
+    "procurementCapabilityTitle": "Domestic Ingredient Procurement Capability",
+    "procurementCapabilityDescription": "We have strong connections with production areas and markets based on years of experience and trust, providing us with powerful procurement capabilities for various domestic agricultural ingredients.",
+    "procurementCapabilitySecond": "Through advanced initiatives such as cultivation contracts for specific seed varieties with producers and our own mandarin cultivation, we have established a system for stable medium- to long-term ingredient procurement.",
+    "cultivationTitle": "In-House Mandarin Cultivation",
+    "cultivationSubtitle": "In-house mandarin cultivation (Group joint project farm) started in 2021",
+    "cultivationDescription": "In collaboration with our group company Toas Co., Ltd., we began planting mandarin seedlings in March 2021.",
+    "location": "Location:",
+    "locationValue": "Handa City, Aichi Prefecture",
+    "farmArea": "Farm Area:",
+    "farmAreaValue": "13 hectares",
+    "harvestStart": "Harvest Start:",
+    "harvestStartValue": "Scheduled for 2028",
+    "annualHarvest": "Annual Harvest:",
+    "annualHarvestValue": "400 tons (target)",
+    "projectPurposeTitle": "Project Purpose",
+    "projectPurpose1": "• Stable procurement of ingredients with suitable processing varieties",
+    "projectPurpose2": "• Local production for local consumption and food education initiatives",
+    "seasonPackTitle": "Season Pack",
+    "seasonPackDescription": "Various carefully cultivated domestic agricultural ingredients are processed while maintaining their fresh state.",
+    "processingCapabilityTitle": "Agricultural Processing Capability",
+    "processingCapabilityDescription": "We have proprietary equipment and production lines for each product category, establishing a system for stable production of domestic agricultural processed products.",
+    "lineHeader": "Agricultural Processing Line",
+    "dailyCapacityHeader": "Daily Processing Capacity",
+    "seasonCapacityHeader": "Seasonal Total",
+    "micanLine": "Domestic Mandarin Processing Line",
+    "peachLine": "Domestic Peach Processing Line",
+    "tomatoLine": "Domestic Tomato Processing Line",
+    "foodSafetyTitle": "Food Safety",
+    "foodSafetyDescription": "To deliver products of 'reliable quality' and 'safety and security' to our customers, we maintain high awareness of product quality, focusing on ingredients and quality in our product development.",
+    "foodSafetySecond": "We also listen to customer feedback, making 'safety and security' our top priority and quickly implementing improvements throughout the company to enhance quality.",
+    "qualityManagementTitle": "Quality Management",
+    "qualityManagementDescription": "We have extensive technical expertise and manufacturing experience in agricultural processing. Beyond safety and nutritional components, we establish the safety of all products through strict quality testing and thorough quality management to ensure stable product quality and deliver safe, reliable products.",
+    "qualityManagementSecond": "In product manufacturing, we check hygiene management conditions and verify that each manufacturing process is implemented according to specified procedures. We also conduct various tests including sensory, physicochemical, and microbiological testing, establishing a system where only products meeting specifications are shipped.",
+    "banner": {
+      "title": "Feature Article",
+      "heading": "Over 100 Years of History and Tradition",
+      "description": "From our founding in 1921 to the present day. Discover our story woven with unwavering dedication and new challenges toward the next century.",
+      "readMore": "Read More"
+    },
+    "manufacturing": {
+      "title": "Manufacturing Process Excellence",
+      "description": "Quality created through traditional techniques and state-of-the-art equipment"
+    },
+    "recruitment": {
+      "title": "Career Opportunities",
+      "description": "Join our team to build the future together"
+    }
+  },
+  "production": {
+    "title": "Production Lines",
+    "subtitle": "Okamoto Foods Co., Ltd. Main Factory",
+    "facilities": {
+      "east": "East Factory",
+      "west": "West Factory",
+      "north": "North Factory"
+    },
+    "lines": {
+      "agricultural": {
+        "title": "Agricultural Line",
+        "content": "Domestic Fruits & Vegetables",
+        "items": "Mandarins, Peaches, etc.",
+        "features": [
+          "Seasonal Processing",
+          "Fresh Ingredients"
+        ]
+      },
+      "frozen": {
+        "title": "Frozen Line",
+        "subtitle": "Frozen Fruits",
+        "content": "Frozen Fruit Products",
+        "items": "Frozen Mandarins, Frozen Peaches",
+        "features": [
+          "Quick Freezing",
+          "Year-round Supply"
+        ]
+      },
+      "dryPack": {
+        "title": "Dry Pack Line",
+        "subtitle": "Pouch Packaging",
+        "content": "Pouch Packaged Products",
+        "items": "Pouch Fruits, Vegetables",
+        "features": [
+          "Long-term Storage",
+          "Storage Convenience"
+        ]
+      },
+      "cup": {
+        "title": "Cup Line",
+        "subtitle": "Individual Serving Type",
+        "content": "Individual Size Products",
+        "items": "Cup Fruits, Jellies",
+        "features": [
+          "Convenient Size",
+          "Ready-to-eat"
+        ]
+      }
+    },
+    "schedule": {
+      "title": "Annual Production Schedule",
+      "subtitle": "Seasonal Production Planning",
+      "caption": "Efficient production line operation throughout the year"
+    },
+    "videos": {
+      "title": "Manufacturing Process Videos",
+      "subtitle": "See our actual production sites",
+      "frozen": {
+        "title": "Frozen Fruit Production Line",
+        "description": "View our frozen fruit manufacturing process."
+      },
+      "tomato": {
+        "title": "Tomato Canning Production Line",
+        "description": "View our OK BRAND tomato canning manufacturing process."
+      },
+      "mikan": {
+        "title": "Mandarin Canning Production Line",
+        "description": "View our OK BRAND mandarin canning manufacturing process."
+      },
+      "peach": {
+        "title": "Yellow Peach Canning Production Line",
+        "description": "View our OK BRAND yellow peach canning manufacturing process."
+      }
+    },
+    "quality": {
+      "title": "High-Quality Manufacturing Management",
+      "description": "We deliver the highest quality products through a combination of computer-controlled state-of-the-art manufacturing equipment and skilled technician craftsmanship.",
+      "management": {
+        "title": "Quality Management",
+        "description": "Strict quality control compliant with HACCP"
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "description": "Efficient production through automation"
+      },
+      "inheritance": {
+        "title": "Technical Inheritance",
+        "description": "Fusion of traditional techniques and cutting-edge technology"
+      }
+    }
+  },
+  "foodTable": {
+    "title1": "Mandarins Connect",
+    "title2": "to Everyday Dining",
+    "subtitle1": "Safe and delicious flavors for daily meals.",
+    "subtitle2": "Our fruits serve as a bridge that connects smiles.",
+    "description1": "From school lunches to family dining tables, Okamoto Foods' products continue to be loved nationwide.",
+    "description2": "Each product, filled with our dedication, adds color to everyday life.",
+    "cta": "Learn More"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Please feel free to contact us about our products or company",
+    "description": "If you have any questions or inquiries, please feel free to contact us using the form below.\\u003cbr\\u003eWe look forward to hearing from you.",
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send",
+      "required": "*Required",
+      "namePlaceholder": "John Smith",
+      "emailPlaceholder": "example@email.com",
+      "subjectPlaceholder": "Product inquiry",
+      "messagePlaceholder": "Please enter your message",
+      "submitting": "Sending...",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email address is required",
+      "emailInvalid": "Please enter a valid email address",
+      "messageRequired": "Message is required",
+      "submitSuccess": "Your inquiry has been sent",
+      "submitError": "Failed to send. Please try again.",
+      "success": {
+        "title": "Sent Successfully",
+        "description": "Thank you for your inquiry.\u003cbr\u003eWe will contact you after reviewing your message.",
+        "newInquiry": "New Inquiry"
+      }
+    }
+  },
+  "common": {
+    "readMore": "Learn More",
+    "viewAll": "View All",
+    "contact": "Contact Us"
+  },
+  "header": {
+    "logoAlt": "Okamoto Foods company logo",
+    "est": "EST. 1921"
+  }
+}

@@ -1,0 +1,90 @@
+import fg from 'fast-glob';
+import fs from 'fs';
+import path from 'path';
+import {parse} from '@babel/parser';
+import traverse from '@babel/traverse';
+
+const GLOB = ['src/**/*.{ts,tsx,js,jsx}'];
+const OUT_DIR = 'i18n-extract';
+fs.mkdirSync(OUT_DIR, {recursive: true});
+
+const jpRegex = /[ぁ-んァ-ヶ一-龯々〆〇ー]/; // 日本語っぽい文字
+const blacklist = [
+  'node_modules','/.next/','/dist/','/build/','/test/','/__tests__/'
+];
+
+const files = fg.sync(GLOB, {ignore: blacklist.map(x=>`**${x}**`)});
+const rows = []; // {file,line,text}
+
+for (const file of files) {
+  const code = fs.readFileSync(file, 'utf8');
+  let ast;
+  try {
+    ast = parse(code, {
+      sourceType: 'module',
+      plugins: ['typescript','jsx','decorators-legacy']
+    });
+  } catch {
+    continue;
+  }
+  traverse(ast, {
+    enter(p) {
+      // 文字列リテラル
+      if (p.node.type === 'StringLiteral') {
+        const t = p.node.value.trim();
+        if (t && jpRegex.test(t)) {
+          rows.push({file, line: p.node.loc?.start.line ?? 0, text: t});
+        }
+      }
+      // JSX内テキスト
+      if (p.node.type === 'JSXText') {
+        const t = p.node.value.replace(/\s+/g,' ').trim();
+        if (t && jpRegex.test(t)) {
+          rows.push({file, line: p.node.loc?.start.line ?? 0, text: t});
+        }
+      }
+    }
+  });
+}
+
+// 重複除去
+const uniq = [];
+const seen = new Set();
+for (const r of rows) {
+  const key = r.text;
+  if (!seen.has(key)) { seen.add(key); uniq.push(r); }
+}
+
+// キー自動生成（ざっくり）
+function slugify(s) {
+  return s
+    .replace(/[^\p{L}\p{N}\s._-]/gu,'')
+    .trim()
+    .split(/\s+/).slice(0,6).join('_')
+    .toLowerCase();
+}
+const entries = uniq.map((r,i) => {
+  const section = path.basename(path.dirname(r.file)) || 'common';
+  const key = `${section}.${slugify(r.text) || 'text_'+(i+1)}`;
+  return {key, ja: r.text};
+});
+
+// 出力
+fs.writeFileSync(`${OUT_DIR}/texts.csv`,
+  'key,ja,file,line\n' +
+  entries.map((e,i)=>`${e.key},"${e.ja.replace(/"/g,'""')}",${uniq[i].file},${uniq[i].line}`).join('\n'),
+  'utf8'
+);
+
+const jaJson = {};
+for (const e of entries) jaJson[e.key] = e.ja;
+fs.writeFileSync(`${OUT_DIR}/ja.json`, JSON.stringify(jaJson, null, 2), 'utf8');
+
+const enJson = {};
+for (const e of entries) enJson[e.key] = '';
+fs.writeFileSync(`${OUT_DIR}/en.json`, JSON.stringify(enJson, null, 2), 'utf8');
+
+console.log(`抽出完了: ${entries.length}件
+- ${OUT_DIR}/texts.csv
+- ${OUT_DIR}/ja.json
+- ${OUT_DIR}/en.json`)

@@ -1,0 +1,154 @@
+export default function HomeEn() {
+  return (
+    <main className="min-h-screen">
+      {/* Hero */}
+      <section className="pt-28 pb-16 bg-orange-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-gray-900">
+            Unlock the Power of Fruit
+          </h1>
+          <p className="mt-4 text-gray-700 max-w-2xl">
+            Founded in 1921. With over a century of expertise, we deliver safe, reliable foods made with carefully selected domestic ingredients.
+          </p>
+          <a
+            href="/en/goods"
+            className="inline-block mt-6 bg-orange-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-orange-700 transition"
+          >
+            View Products
+          </a>
+        </div>
+      </section>
+
+      {/* Company / About */}
+      <section className="py-14">
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold">About Us</h2>
+            <p className="mt-4 text-gray-700">
+              Since our founding in 1921, we have continued to craft foods with a commitment to Japanese ingredients and rigorous quality control, bringing safety and great taste to your table.
+            </p>
+            <a
+              href="/en/company"
+              className="inline-block mt-6 text-blue-900 font-semibold underline underline-offset-4 hover:opacity-80"
+            >
+              View Company Info
+            </a>
+          </div>
+          <div className="rounded-xl overflow-hidden shadow-sm bg-white p-6">
+            <img
+              src="/images/みかん農場.avif"
+              alt="Mandarin orange farm scenery"
+              className="w-full h-64 object-cover rounded-md"
+            />
+            <p className="mt-3 text-sm text-gray-500">
+              A century of know-how supporting safe and delicious foods.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Values */}
+      <section className="py-14 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold">Our Values</h2>
+          <div className="mt-8 grid md:grid-cols-3 gap-6">
+            <div className="p-6 bg-white rounded-xl shadow-sm">
+              <h3 className="font-semibold text-lg">Quality First</h3>
+              <p className="mt-2 text-gray-700">
+                We deliver safe food through strict quality control and a focus on domestically sourced ingredients.
+              </p>
+            </div>
+            <div className="p-6 bg-white rounded-xl shadow-sm">
+              <h3 className="font-semibold text-lg">Trust</h3>
+              <p className="mt-2 text-gray-700">
+                Long-term partnerships with growers ensure the highest-quality ingredients.
+              </p>
+            </div>
+            <div className="p-6 bg-white rounded-xl shadow-sm">
+              <h3 className="font-semibold text-lg">Sustainability</h3>
+              <p className="mt-2 text-gray-700">
+                We operate responsibly with care for the environment and future generations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product categories (teaser) */}
+      <section className="py-14">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold">OK BRAND Featured Products</h2>
+          <p className="mt-3 text-gray-700">Safe, reliable foods centered on Japanese produce.</p>
+
+          <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/みかん商品.avif" alt="Mandarin oranges product" className="w-full h-36 object-cover rounded-md" />
+              <h3 className="mt-3 font-semibold">Mandarin Oranges</h3>
+              <p className="text-sm text-gray-600 mt-1">Canned & pouch</p>
+            </a>
+
+            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/桃.avif" alt="Yellow peaches product" className="w-full h-36 object-cover rounded-md" />
+              <h3 className="mt-3 font-semibold">Yellow Peaches</h3>
+              <p className="text-sm text-gray-600 mt-1">Canned & pouch</p>
+            </a>
+
+            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/みかんフリー.avif" alt="Frozen fruit" className="w-full h-36 object-cover rounded-md" />
+              <h3 className="mt-3 font-semibold">Frozen Fruits</h3>
+              <p className="text-sm text-gray-600 mt-1">Fresh taste, all year</p>
+            </a>
+
+            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/工場写真.avif" alt="Production lines" className="w-full h-36 object-cover rounded-md" />
+              <h3 className="mt-3 font-semibold">Production Lines</h3>
+              <p className="text-sm text-gray-600 mt-1">Quality born of tradition & tech</p>
+            </a>
+          </div>
+
+          <div className="mt-8">
+            <a
+              href="/en/goods"
+              className="inline-block bg-gray-900 text-white px-6 py-3 rounded-md font-semibold hover:bg-black transition"
+            >
+              View All Products
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* News teaser */}
+      <section className="py-14 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold">News</h2>
+          <p className="mt-2 text-gray-700">Updates from Okamoto Foods.</p>
+          <a
+            href="/en/news"
+            className="inline-block mt-6 text-blue-900 font-semibold underline underline-offset-4 hover:opacity-80"
+          >
+            See All News
+          </a>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-16 bg-orange-50">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold">Contact Us</h2>
+          <p className="mt-3 text-gray-700">
+            Questions about our products or services? We’re here to help.
+          </p>
+          <a
+            href="/en/contact"
+            className="inline-block mt-6 bg-orange-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-orange-700 transition"
+          >
+            Contact
+          </a>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+
+        

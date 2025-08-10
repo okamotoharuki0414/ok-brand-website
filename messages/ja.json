@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "title": "岡本食品株式会社｜果実のちからを、もっと自由に",
+    "description": "1921年創業、100年を超える歴史の中で培われた技術と想いで、国産原料にこだわった安心・安全な食品をお届けします。"
+  },
+  "hero": {
+    "title": "果実のちからを、もっと自由に",
+    "subtitle": "1921年創業、100年を超える歴史の中で培われた技術と想いで、国産原料にこだわった安心・安全な食品をお届けします。",
+    "cta": "商品情報を見る",
+    "scrollDown": "SCROLL"
+  },
+  "nav": {
+    "home": "ホーム",
+    "products": "商品",
+    "company": "企業情報",
+    "news": "お知らせ",
+    "recruit": "採用情報",
+    "contact": "お問い合わせ"
+  },
+  "company": {
+    "heading": "私たちについて",
+    "subtitle": "岡本食品の歴史と理念",
+    "body": "大正10年創業以来、100年を超える歴史の中で培われた技術と想いで、国産原料にこだわった安心・安全な食品をお届けしています。",
+    "viewMore": "会社情報を見る",
+    "mission": "全ての人に安心・安全でおいしい食を提供し、健康で幸せな社会づくりに貢献します",
+    "values": {
+      "quality": {
+        "title": "品質第一",
+        "description": "国産原料へのこだわりと厳格な品質管理により、安心・安全な食品をお届けします。"
+      },
+      "trust": {
+        "title": "信頼関係",
+        "description": "生産者の皆様との長年の信頼関係により、最高品質の原料を確保しています。"
+      },
+      "sustainability": {
+        "title": "持続可能性",
+        "description": "環境に配慮した持続可能な事業運営で、次世代につなぐ責任を果たします。"
+      }
+    },
+    "greeting": {
+      "title": "ごあいさつ",
+      "president": "代表取締役社長",
+      "name": "岡本 嘉久",
+      "content1": "弊社は大正10年5月にトマトソース加工業者として創業しました。以来100年以上にわたり、国産原料にこだわった製品づくりを続けております。",
+      "content2": "「良い製品は良い原料からしかつくることはできません」という信念のもと、生産者の皆様との信頼関係を大切にしています。",
+      "content3": "今後とも、なお一層のご支援、ご愛顧のほど、よろしくお願い申し上げます。"
+    }
+  },
+  "products": {
+    "title": "OK BRAND 主要商品",
+    "subtitle": "国産農産物を中心とした安心・安全な食品をお届けします",
+    "viewMore": "商品一覧を見る",
+    "categories": {
+      "mikan": {
+        "title": "みかん",
+        "description": "収穫されたばかりの新鮮なみかんを、旬のうちに皮や種、スジを取り除いて一粒ずつ食べやすく加工し、あっさりした甘さのシラップに漬込みました。果肉の風味を引き出したおいしさをお楽しみ頂けます。",
+        "products": {
+          "domesticCan": {
+            "name": "国産みかん1号缶(L/M）　(ライトシラップ)",
+            "description": "あっさり系の甘さのシラップ漬け。国産みかん缶詰め",
+            "specs": {
+              "shape": "全果粒",
+              "package": "1号缶×6",
+              "solidWeight": "1,700g",
+              "totalWeight": "3,050g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "みかん(国産)、砂糖",
+              "additives": "クエン酸",
+              "shelfLife": "36ヶ月",
+              "origin": "日本",
+              "finalProcessing": "日本",
+              "janCode": "4993521005004",
+              "itfCode": "14993521005001"
+            }
+          },
+          "pouche1kg": {
+            "name": "みかん1kgパウチ",
+            "description": "あっさり系の甘さのシラップ漬け。中国産みかんパウチタイプ",
+            "specs": {
+              "shape": "粒",
+              "package": "1kgパウチ",
+              "solidWeight": "1kg",
+              "shelfLife": "2年",
+              "origin": "中国産"
+            }
+          },
+          "domesticPouch1kg": {
+            "name": "国産みかん1kgパウチ",
+            "description": "あっさり系の甘さのシラップ漬け。国産みかんパウチタイプ",
+            "specs": {
+              "shape": "粒",
+              "package": "1kgパウチ",
+              "solidWeight": "1kg",
+              "shelfLife": "2年",
+              "origin": "国産",
+              "itemCode": "3011"
+            }
+          },
+          "chineseCan": {
+            "name": "中国産みかん1号缶",
+            "description": "あっさり系の甘さのシラップ漬け。中国産みかん缶詰め",
+            "specs": {
+              "shape": "粒",
+              "package": "1号缶",
+              "solidWeight": "1800g",
+              "totalWeight": "3000g",
+              "shelfLife": "3年",
+              "origin": "中国産"
+            }
+          }
+        }
+      },
+      "peach": {
+        "title": "黄桃",
+        "description": "国内で収穫した黄桃やギリシャ産の黄桃を、種や皮を取り除き使いやすいダイス状にカットしました。あっさりとした甘さのシラップ漬けで、果肉本来のおいしさをお楽しみいただけます。",
+        "products": {
+          "domesticCanDiced": {
+            "name": "国産黄桃ダイス1号缶",
+            "description": "あっさり系の甘さのシラップ漬け。国産黄桃ダイスカット缶詰め"
+          },
+          "domesticPouch1kg": {
+            "name": "国産黄桃ダイス1kgパウチ",
+            "description": "あっさり系の甘さのシラップ漬け。国産黄桃ダイスカットパウチタイプ"
+          },
+          "greekPouch1kg": {
+            "name": "黄桃ダイス1kgパウチ",
+            "description": "あっさり系の甘さのシラップ漬け。ギリシャ産黄桃ダイスカットパウチタイプ"
+          }
+        }
+      },
+      "tomato": {
+        "title": "トマト",
+        "description": "国内で収穫したトマトを旬の時期に芯を取り除き皮をむいて、トマトを搾汁したジュースに漬け込みました。製造工程で水分を加えておらず、国産トマトのフレッシュな風味を閉じ込めました。ダイスカットの他、国産トマトでは希少なホールタイプも製造しています。",
+        "products": {
+          "domesticWhole": {
+            "name": "国産トマトホール1号缶",
+            "description": "国産トマトでは希少なホールタイプ"
+          },
+          "domesticDiced": {
+            "name": "国産トマトダイス1号缶",
+            "description": "使いやすいダイスカットタイプ"
+          },
+          "domesticPouch3kg": {
+            "name": "国産カットトマト3kgパウチ",
+            "description": "使いやすいダイスカット(パウチ)タイプ 3Kg"
+          }
+        }
+      },
+      "mushroom": {
+        "title": "マッシュルーム",
+        "description": "歯切れがよく、風味豊かなマッシュルームを薄くスライスしました。収穫後すぐに加工する国産の他、世界の主要な産地であるヨーロッパ産、中国産もございます。※冷凍大容量タイプ（ホール・スライス）も取扱っております。",
+        "products": {
+          "domesticSlicedPouch": {
+            "name": "国産マッシュルームスライス1kgパウチ",
+            "description": "使いやすくスライスした国産マッシュルームパウチタイプ"
+          },
+          "chineseSlicedCan": {
+            "name": "マッシュルームスライス1号缶",
+            "description": "使いやすくスライスした中国産マッシュルーム缶詰"
+          },
+          "europeanSlicedPouch": {
+            "name": "マッシュルームスライス(ヨーロッパ原料)1kgパウチ",
+            "description": "使いやすくスライスしたオランダ産マッシュルームパウチタイプ"
+          },
+          "chineseSlicedPouch": {
+            "name": "マッシュルームスライス1kgパウチ",
+            "description": "使いやすくスライスした中国産マッシュルームパウチタイプ"
+          }
+        }
+      },
+      "pineapple": {
+        "title": "パインアップル",
+        "description": "甘くて香りのよいタイ産パインアップルを、一口大のサイズにカットしました。あっさりとした甘さのシラップ漬けで果肉本来のおいしさをお楽しみいただけます。",
+        "products": {
+          "tidbitsPouch1kg": {
+            "name": "パインアップルチビット1kgパウチ",
+            "description": "あっさり系の甘さのシラップ漬け。タイ産パイン一口サイズカットパウチタイプ"
+          }
+        }
+      },
+      "mixedFruits": {
+        "title": "ミックスフルーツ",
+        "description": "一口大にしたパイン(タイ産)、黄桃(ギリシャ産)、みかん(国産)をミックスしました。複数のフルーツを用意する手間もなくご使用いただけます。",
+        "products": {
+          "mixedPouch1kg": {
+            "name": "ミックスフルーツ1kgパウチ",
+            "description": "あっさり系の甘さのシラップ漬け。パイン、黄桃、みかんのミックス一口サイズカットパウチタイプ"
+          }
+        }
+      },
+      "mikanPulp": {
+        "title": "その他(みかんさのう)",
+        "description": "国産の「つぶつぶみかん」です。シロップ漬けにしたさのうで、飲料・ヨーグルト・ゼリーなどの原料としてご使用いただいております。",
+        "products": {
+          "domesticPulpCan": {
+            "name": "国産みかんさのう5G缶",
+            "description": "あっさり系の甘さのシロップ漬け。国産みかんのつぶつぶみかん缶詰"
+          }
+        }
+      },
+      "frozen": {
+        "title": "冷凍フルーツ",
+        "description": "「国産フルーツ」「 皮無し」「シラップ漬け」の冷凍フルーツです。生果調達（産地直送）・生果の一次処理から最終製品まで一貫して行なっています。国産フルーツの皮を除去し、シラップ漬けしたフルーツを一粒ずつ冷凍しています。",
+        "products": {
+          "frozenMikan1kg": {
+            "name": "OK冷凍フルーツ 国産みかん1kg",
+            "description": "シラップ漬けにした国産みかんを一粒ずつ冷凍してあるので使いやすい"
+          },
+          "chillMikan110g": {
+            "name": "ひんやりみかん110ｇ",
+            "description": "シラップ漬けにした国産みかんを一粒ずつ冷凍してあるので使いやすい"
+          },
+          "frozenPeach1kg": {
+            "name": "OK冷凍フルーツ 国産黄桃1kg",
+            "description": "シラップ漬けにした国産黄桃を一粒ずつ冷凍してあるので使いやすい"
+          }
+        }
+      }
+    },
+    "specs": {
+      "shape": "形状:",
+      "package": "規格×入数:",
+      "solidWeight": "固形量:",
+      "totalWeight": "内容総量:",
+      "productSize": "商品サイズ:",
+      "caseSize": "ケースサイズ:",
+      "ingredients": "原材料:",
+      "additives": "添加物:",
+      "shelfLife": "賞味期限:",
+      "origin": "原産地:",
+      "janCode": "JANコード:",
+      "itfCode": "ITFコード:",
+      "productDetails": "製品詳細"
+    }
+  },
+  "news": {
+    "title": "お知らせ",
+    "subtitle": "最新の情報をお届けします",
+    "viewMore": "お知らせ一覧を見る",
+    "readMore": "続きを読む",
+    "backToList": "← お知らせ一覧に戻る",
+    "detail": {
+      "jfsB": {
+        "title": "JFS-B規格の適合認証を取得しました",
+        "date": "2024年5月28日",
+        "category": "品質管理",
+        "content": {
+          "intro": "岡本食品株式会社では、２０２４年３月に一般財団法人食品マネジメント協会（JFSM）が運営する食品安全規格「JFS-B規格」の適合証明を取得いたしました。",
+          "section1": {
+            "title": "JFS-B規格について",
+            "content": "JFS‐B規格は、食品安全マネジメントシステム（FSM）、ハザード制御(HACCP)、適正製造規範（Good　Manufacturing Practice=GMP）の３つの要求事項層で構成された、国際整合性のある日本発の国際的な食品安全管理規格です。"
+          },
+          "section2": {
+            "title": "今後の取り組み",
+            "content": "今後もお客様に安全・安心な製品をお届けできますよう、このシステムを維持するとともに、さらなる品質管理体制の強化に努めてまいります。"
+          },
+          "section3": {
+            "title": "関連情報",
+            "content": "一般財団法人食品安全マネジメント協会（JFSM）",
+            "link": "https://www.jfsm.or.jp/scheme/documents/"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "companyName": "岡本食品株式会社",
+    "tagline": "FOOD FOR YOUR SMILE",
+    "description": "安心・美味しさ・笑顔を詰めてお届けします。100年を超える歴史の中で培われた技術と想いで、国産原料にこだわった安心・安全な食品をお届けします。",
+    "address": "〒457-0802 愛知県名古屋市南区要町3-17",
+    "phone": "TEL: 052-611-5301",
+    "fax": "FAX: 052-613-2607",
+    "copyright": "© 2024 岡本食品株式会社. All rights reserved.",
+    "productsTitle": "製品情報",
+    "companyTitle": "企業情報",
+    "productsList": "商品一覧",
+    "mikanProducts": "みかん缶詰",
+    "peachProducts": "黄桃缶詰",
+    "frozenProducts": "冷凍フルーツ",
+    "companyOverview": "会社概要",
+    "privacyPolicy": "プライバシーポリシー"
+  },
+  "features": {
+    "title": "国産へのこだわり",
+    "subtitle": "安心・安全でおいしい商品をお届けするため、契約栽培などの取組みを行っています。",
+    "qualityTitle": "良い製品は良い原料からしか作ることはできません",
+    "qualityDescription": "長年農産缶詰を作り続けてきた私たちは誰よりもそのことをよく理解しています。",
+    "rawMaterialsDescription": "みかん・トマト・ももをはじめとする国産原料製品。それぞれ単に原料の売買にとどまらず、良質な原料を安定して作っていくためにはどうしたら良いかを生産者とともに考え行動し、信頼関係を培うところから私たちの製品づくりは始まっています。",
+    "procurementCapabilityTitle": "国産原料調達能力",
+    "procurementCapabilityDescription": "各種国産農産原料について、長年の実績・信頼に基づいて産地や市場との強固なつながりを持ち、強力な調達能力を有しています。",
+    "procurementCapabilitySecond": "生産者との指定品種苗の栽培契約や、みかんの自社栽培など、先進的な取組みにより中長期的に安定した原料調達ができる体制を整えています。",
+    "cultivationTitle": "みかん自社栽培",
+    "cultivationSubtitle": "みかんの自社栽培(グループ共同プロジェクト農園)2021年から開始",
+    "cultivationDescription": "当社グループ会社のトーアス㈱と共同で、2021年3月よりみかんの苗の定植を開始しました。",
+    "location": "場所:",
+    "locationValue": "愛知県半田市",
+    "farmArea": "農地面積:",
+    "farmAreaValue": "13㏊",
+    "harvestStart": "収穫開始:",
+    "harvestStartValue": "2028年予定",
+    "annualHarvest": "年間収穫量:",
+    "annualHarvestValue": "400t(目標)",
+    "projectPurposeTitle": "プロジェクトの目的",
+    "projectPurpose1": "・加工適性のある品種での原料安定確保",
+    "projectPurpose2": "・地元での地産地消の取り組みや食育への活用",
+    "seasonPackTitle": "シーズンパック",
+    "seasonPackDescription": "大切に育てられた各種国産農産原料は、フレッシュな状態のまま加工しております。",
+    "processingCapabilityTitle": "農産加工能力",
+    "processingCapabilityDescription": "独自ノウハウの設備・製造ラインを品目別に保有し、国産農産加工品を安定的に生産できる体制を整えています。",
+    "lineHeader": "農産加工ライン",
+    "dailyCapacityHeader": "処理能力/日",
+    "seasonCapacityHeader": "シーズン計",
+    "micanLine": "国産みかん加工ライン",
+    "peachLine": "国産もも加工ライン",
+    "tomatoLine": "国産トマト加工ライン",
+    "foodSafetyTitle": "食品安全",
+    "foodSafetyDescription": "私たちは、お客様に「確かな品質」「安心・安全」な製品をお届けするため、製品の品質に対して高い意識を持って取組み、原料にこだわり、品質にこだわって製品づくりをしています。",
+    "foodSafetySecond": "また、お客様の声に耳を傾け「安心・安全」を最優先事項とし、速やかに社内展開して品質の向上にも役立てています。",
+    "qualityManagementTitle": "品質管理",
+    "qualityManagementDescription": "私たちは、農産加工の豊富な技術力と製造実績があります。安全性や栄養成分はもとより、安定した製品の品質を確保するため、厳格な品質検査、徹底した品質管理のもと、すべての製品の安全性を確立し、安心・安全な製品をお届けしています。",
+    "qualityManagementSecond": "製品の製造においては衛生管理状態のチェックをし、各製造工程が規定された手順通り実施されたかを確認しています。更に官能検査、理化学検査、微生物検査等の各種検査を実施し、製品規格に適合しているものが出荷される仕組みを構築しています。",
+    "banner": {
+      "title": "特集記事",
+      "heading": "100年を超える歴史と伝統",
+      "description": "大正10年の創業から現代まで。変わらぬ想いで紡いできた私たちの物語と、これからの100年に向けた新たな挑戦をご紹介します。",
+      "readMore": "詳しく読む"
+    },
+    "manufacturing": {
+      "title": "製造工程のこだわり",
+      "description": "伝統技術と最新設備が生み出す品質"
+    },
+    "recruitment": {
+      "title": "採用情報",
+      "description": "共に未来を築く仲間を募集しています"
+    }
+  },
+  "production": {
+    "title": "製造ライン",
+    "subtitle": "岡本食品株式会社 本社工場",
+    "facilities": {
+      "east": "東工場",
+      "west": "西工場",
+      "north": "北工場"
+    },
+    "lines": {
+      "agricultural": {
+        "title": "農産ライン",
+        "content": "国産フルーツ・野菜",
+        "items": "みかん、もも等",
+        "features": [
+          "季節加工",
+          "新鮮食材"
+        ]
+      },
+      "frozen": {
+        "title": "冷凍ライン",
+        "subtitle": "冷凍フルーツ",
+        "content": "冷凍果実製品",
+        "items": "冷凍みかん、冷凍もも",
+        "features": [
+          "急速冷凍",
+          "年間供給"
+        ]
+      },
+      "dryPack": {
+        "title": "ドライパックライン",
+        "subtitle": "パウチ包装",
+        "content": "パウチ包装製品",
+        "items": "パウチフルーツ、野菜",
+        "features": [
+          "長期保存",
+          "保存便利"
+        ]
+      },
+      "cup": {
+        "title": "カップライン",
+        "subtitle": "個食タイプ",
+        "content": "個食サイズ製品",
+        "items": "カップフルーツ、ゼリー",
+        "features": [
+          "便利サイズ",
+          "そのまま食べられる"
+        ]
+      }
+    },
+    "schedule": {
+      "title": "年間製造スケジュール",
+      "subtitle": "季節ごとの製造計画",
+      "caption": "年間を通じた効率的な製造ライン運用"
+    },
+    "videos": {
+      "title": "製造工程動画",
+      "subtitle": "実際の製造現場をご覧ください",
+      "frozen": {
+        "title": "冷凍フルーツ製造ライン",
+        "description": "冷凍フルーツの製造工程をご覧いただけます。"
+      },
+      "tomato": {
+        "title": "トマト缶詰製造ライン",
+        "description": "OK BRANDのトマト缶詰製造工程をご覧いただけます。"
+      },
+      "mikan": {
+        "title": "みかん缶詰製造ライン",
+        "description": "OK BRANDのみかん缶詰製造工程をご覧いただけます。"
+      },
+      "peach": {
+        "title": "黄桃缶詰製造ライン",
+        "description": "OK BRANDの黄桃缶詰製造工程をご覧いただけます。"
+      }
+    },
+    "quality": {
+      "title": "高品質製造管理",
+      "description": "コンピュータ制御された最新の製造設備と、熟練した技術者による手作業の組み合わせで、最高品質の製品をお届けします。",
+      "management": {
+        "title": "品質管理",
+        "description": "HACCP準拠の厳格な品質管理"
+      },
+      "efficiency": {
+        "title": "効率性",
+        "description": "自動化による効率的な生産"
+      },
+      "inheritance": {
+        "title": "技術継承",
+        "description": "伝統技術と最新技術の融合"
+      }
+    }
+  },
+  "foodTable": {
+    "title1": "みかんがつなぐ、",
+    "title2": "日常の食卓へ",
+    "subtitle1": "安心でおいしい味わいを毎日の食事に。",
+    "subtitle2": "笑顔をつなぐ架け橋として、私たちのフルーツがあります。",
+    "description1": "学校給食から家庭の食卓まで、全国の皆さまに愛され続けている岡本食品の商品。",
+    "description2": "ひとつひとつに込められた想いが、日常に彩りを添えています。",
+    "cta": "詳しく見る"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "商品や弊社に関することなど、お気軽にお問い合わせください",
+    "description": "ご質問やご相談がございましたら、下記フォームよりお気軽にご連絡ください。\\u003cbr\\u003eお客様からのお問い合わせを心よりお待ちしております。",
+    "form": {
+      "name": "お名前",
+      "company": "会社名",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "subject": "件名",
+      "message": "お問い合わせ内容",
+      "submit": "送信する",
+      "required": "※必須",
+      "namePlaceholder": "山田太郎",
+      "emailPlaceholder": "example@email.com",
+      "subjectPlaceholder": "商品についてのお問い合わせ",
+      "messagePlaceholder": "お問い合わせ内容をご記入ください",
+      "submitting": "送信中...",
+      "nameRequired": "お名前は必須項目です",
+      "emailRequired": "メールアドレスは必須項目です",
+      "emailInvalid": "正しいメールアドレスを入力してください",
+      "messageRequired": "お問い合わせ内容は必須項目です",
+      "submitSuccess": "お問い合わせを送信しました",
+      "submitError": "送信に失敗しました。もう一度お試しください。",
+      "success": {
+        "title": "送信完了",
+        "description": "お問い合わせありがとうございます。\u003cbr\u003e内容を確認の上、担当者よりご連絡いたします。",
+        "newInquiry": "新しいお問い合わせ"
+      }
+    }
+  },
+  "common": {
+    "readMore": "詳しく見る",
+    "viewAll": "一覧を見る",
+    "contact": "お問い合わせ"
+  },
+  "header": {
+    "logoAlt": "岡本食品株式会社のロゴマーク",
+    "est": "EST. 1921"
+  }
+}

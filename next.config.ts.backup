@@ -1,0 +1,26 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+import type { NextConfig } from "next";
+
+const withNextIntl = createNextIntlPlugin();
+
+/** @type {import('next').NextConfig} */
+const nextConfig: NextConfig = {
+  // App Routerでは i18n の自動ルーティングは使わず、[locale] で制御
+  // 既に i18n を書いている場合は衝突しないように注意（残しても可）
+  // i18n: {
+  //   locales: ['ja', 'en'],
+  //   defaultLocale: 'ja',
+  //   localeDetection: true
+  // }
+  
+  // i18n対応のため、output: 'export'を一時的にコメントアウト
+  // output: 'export',
+  experimental: {
+    optimizeServerReact: false,
+  },
+  images: {
+    unoptimized: true,
+  },
+};
+
+export default withNextIntl(nextConfig);
