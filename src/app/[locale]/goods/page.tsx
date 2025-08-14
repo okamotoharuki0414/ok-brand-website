@@ -542,7 +542,7 @@ export default function GoodsPage() {
             }
 
             return (
-              <div key={index} id={categoryId}>
+              <div key={index} id={`category-${categoryId}`}>
                 <CategorySection
                   title={category.title}
                   description={category.description}
