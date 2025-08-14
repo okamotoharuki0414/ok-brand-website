@@ -22,7 +22,7 @@ const galleryItems = [
   },
   {
     id: 3,
-    image: '/images/品質管理.avif',
+    image: '/images/品質管理２.avif',
     title: '品質管理',
     caption: '徹底した品質管理で安心・安全な商品をお届け',
     link: '/company#quality'

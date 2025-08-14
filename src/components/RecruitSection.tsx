@@ -1,25 +1,33 @@
+'use client'
+
+import { useTranslations, useLocale } from 'next-intl'
+import Link from 'next/link'
+
 export default function RecruitSection() {
+  const t = useTranslations('recruit')
+  const locale = useLocale()
+  
   const jobOpenings = [
     {
-      category: "正社員",
+      category: t('jobCategories.fullTime'),
       positions: [
-        "製造 管理職",
-        "製造",
-        "品質管理",
-        "新卒（2024年春卒業）"
+        t('positions.manufacturingManager'),
+        t('positions.manufacturing'),
+        t('positions.qualityControl'),
+        t('positions.newGraduate')
       ]
     },
     {
-      category: "契約社員（パート）",
+      category: t('jobCategories.partTime'),
       positions: [
-        "製造"
+        t('positions.manufacturing')
       ]
     }
   ]
 
   return (
-    <section className="py-24 px-4 bg-white">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-12 sm:py-24 px-4 bg-white">
+      <div className="max-w-6xl mx-auto overflow-hidden">
         <div className="text-center mb-16">
           <div className="space-y-4">
             <h2 className="text-3xl md:text-4xl font-serif text-slate-800 tracking-wide">
@@ -27,54 +35,54 @@ export default function RecruitSection() {
             </h2>
             <div className="w-16 h-px bg-slate-400 mx-auto"></div>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
-              現在の求人職種
+              {t('subtitle')}
             </p>
           </div>
         </div>
 
         {/* 求めている人材 */}
-        <div className="bg-gradient-to-br from-orange-50 to-white rounded-lg p-8 md:p-12 shadow-sm border border-orange-100 mb-16">
+        <div className="bg-gradient-to-br from-slate-50 to-white rounded-lg p-8 md:p-12 shadow-sm border border-slate-200 mb-16">
           <div className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-wide mb-4">
               QUALIFICATIONS
             </h3>
-            <p className="text-lg font-medium text-orange-800">
-              感謝と尊重心があり、挑戦と変革に取り組める方、是非ご応募下さい。
+            <p className="text-lg font-medium text-slate-700">
+              {t('qualificationMessage')}
             </p>
           </div>
           
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-slate-700 leading-relaxed">
-              私達は、国産フルーツ・野菜の加工を中心に、笑顔で安心・安全でおいしい食品をお届けし続けます。そのために、お客様や農業生産者様をはじめとしたあらゆる関係者様や共に働く仲間を感謝の気持ちをもって尊重できる人、現状に満足せず、常に挑戦と変革に取り組んでいく人を求めています。
+              {t('companyDescription.paragraph1')}
             </p>
 
             <p className="text-slate-700 leading-relaxed">
-              もちろん、誰もが最初はわからないこと、不安なことが多いです。OJT教育・フォローアップ面談他、各コミュニケーションで働くステージを整えていきます。勤務は日勤のみであり、ワークライフバランス実現の支援をしています。
+              {t('companyDescription.paragraph2')}
             </p>
 
             <p className="text-slate-700 leading-relaxed">
-              現在従業員80数名のアットホームな雰囲気の職場です。しっかりフォローしていきますので、安心してお仕事いただけます！
+              {t('companyDescription.paragraph3')}
             </p>
 
             <div className="text-center pt-6">
-              <p className="text-xl font-bold text-orange-800">
-                私達と共に…FOOD FOR YOUR SMILE!
+              <p className="text-xl font-bold text-slate-700">
+                {t('companySlogan')}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
           {jobOpenings.map((category, index) => (
-            <div key={index} className="bg-gradient-to-br from-orange-50 to-stone-50 rounded-lg p-8 shadow-sm border border-orange-100">
+            <div key={index} className="bg-gradient-to-br from-slate-50 to-stone-50 rounded-lg p-6 sm:p-8 shadow-sm border border-slate-200 w-full">
               <div className="space-y-6">
-                <h3 className="text-xl font-bold text-slate-800 pb-2 border-b border-orange-200">
+                <h3 className="text-xl font-bold text-slate-800 pb-2 border-b border-slate-300">
                   【{category.category}】
                 </h3>
                 <ul className="space-y-3">
                   {category.positions.map((position, posIndex) => (
                     <li key={posIndex} className="flex items-center text-slate-700">
-                      <span className="w-2 h-2 bg-orange-400 rounded-full mr-3 flex-shrink-0"></span>
+                      <span className="w-2 h-2 bg-slate-400 rounded-full mr-3 flex-shrink-0"></span>
                       {position}
                     </li>
                   ))}
@@ -84,83 +92,92 @@ export default function RecruitSection() {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-16">
           <div className="space-y-6">
-            <h3 className="text-2xl font-serif text-slate-800">勤務条件</h3>
+            <h3 className="text-2xl font-serif text-slate-800">{t('workConditions.title')}</h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-slate-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium text-slate-800">勤務地</p>
-                  <p className="text-slate-600">愛知県名古屋市南区要町3-17</p>
+                  <p className="font-medium text-slate-800">{t('workConditions.location.label')}</p>
+                  <p className="text-slate-600">{t('workConditions.location.address')}</p>
                 </div>
               </div>
               
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-slate-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium text-slate-800">勤務時間</p>
-                  <p className="text-slate-600">8:00～17:30 *残業あり(月10時間程度)</p>
+                  <p className="font-medium text-slate-800">{t('workConditions.workingHours.label')}</p>
+                  <p className="text-slate-600">{t('workConditions.workingHours.details')}</p>
                 </div>
               </div>
               
               <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-slate-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium text-slate-800">年間休日</p>
-                  <p className="text-slate-600">120日(当社カレンダーによる)</p>
+                  <p className="font-medium text-slate-800">{t('workConditions.annualHolidays.label')}</p>
+                  <p className="text-slate-600">{t('workConditions.annualHolidays.details')}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-2xl font-serif text-slate-800">HOW TO APPLY</h3>
+            <h3 className="text-2xl font-serif text-slate-800">{t('application.title')}</h3>
             <div className="space-y-4">
               <p className="text-slate-600 leading-relaxed">
-                ご応募される方は、下記フォーム、または電話にてご応募下さい。
+                {t('application.instructions1')}
               </p>
               <p className="text-slate-600 leading-relaxed">
-                定員に達するまで、会社説明会・採用試験は随時実施していきます。
+                {t('application.instructions2')}
               </p>
               
-              <div className="bg-white rounded-lg p-6 shadow-sm border border-slate-200">
+              <div className="bg-white rounded-lg p-4 sm:p-6 shadow-sm border border-slate-200 w-full">
                 <div className="space-y-3">
-                  <h4 className="font-bold text-slate-800">採用担当</h4>
+                  <h4 className="font-bold text-slate-800 text-sm sm:text-base">{t('application.contactPerson.title')}</h4>
                   <div className="space-y-2">
-                    <p className="text-slate-700">総務部 藤田</p>
+                    <p className="text-slate-700 text-sm sm:text-base">{t('application.contactPerson.name')}</p>
                     <div className="flex items-center space-x-2">
-                      <svg className="w-4 h-4 text-slate-500" fill="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4 text-slate-500 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                       </svg>
-                      <span className="text-slate-600">TEL: 052-611-5301</span>
+                      <span className="text-slate-600 text-sm sm:text-base">TEL: 052-611-5301</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-4">
+              <div className="pt-4 flex flex-col gap-3 w-full">
                 <a
                   href="tel:052-611-5301"
-                  className="inline-flex items-center justify-center bg-orange-600 text-white px-8 py-4 rounded-lg font-medium hover:bg-orange-700 transition-colors duration-300 w-full md:w-auto"
+                  className="inline-flex items-center justify-center bg-slate-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors duration-300 w-full text-sm sm:text-base"
                 >
-                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                   </svg>
-                  電話で応募する
+                  <span className="truncate">{t('application.phoneButton')}</span>
                 </a>
+                <Link
+                  href={`/${locale}/contact`}
+                  className="inline-flex items-center justify-center bg-slate-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors duration-300 w-full text-sm sm:text-base"
+                >
+                  <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                  </svg>
+                  <span className="truncate">{t('contactForm')}</span>
+                </Link>
               </div>
             </div>
           </div>

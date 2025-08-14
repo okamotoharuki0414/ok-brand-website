@@ -1,10 +1,13 @@
 import '../globals.css';
+import '../../styles/english-typography.css';
 import type { ReactNode } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import NavigationProgress from '@/components/NavigationProgress';
+import PageTransition from '@/components/PageTransition';
 
 const SUPPORTED = ['ja', 'en'] as const;
 
@@ -17,14 +20,19 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   if (!SUPPORTED.includes(locale as typeof SUPPORTED[number])) notFound();
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Header />
-      {children}
-      <Footer />
-    </NextIntlClientProvider>
+    <div lang={locale} className={locale === 'en' ? 'font-inter' : ''}>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <NavigationProgress />
+        <Header />
+        <PageTransition>
+          {children}
+        </PageTransition>
+        <Footer />
+      </NextIntlClientProvider>
+    </div>
   );
 }
 

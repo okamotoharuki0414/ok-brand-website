@@ -16,7 +16,7 @@ export default function FeaturesSectionEn() {
       icon: '🌱',
       title: 'Commitment to Domestic Ingredients',
       description: 'We use only carefully selected domestic ingredients, primarily from Aichi Prefecture and surrounding regions.',
-      image: '/images/みかん商品.avif'
+      image: '/images/mikan-products.avif'
     },
     {
       id: 3,

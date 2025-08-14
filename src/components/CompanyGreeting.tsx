@@ -44,12 +44,13 @@ export default function CompanyGreeting() {
           </div>
 
           <div className="order-1 md:order-2 flex justify-center">
-            <div className="relative w-64 h-64">
+            <div className="relative w-72 h-72">
               <Image
                 src="/images/社長写真.avif"
                 alt={`${t('president')} ${t('name')}`}
                 fill
-                className="object-cover rounded-full shadow-lg"
+                className="object-contain rounded-full shadow-lg"
+                style={{ backgroundColor: '#cac8bb' }}
               />
             </div>
           </div>

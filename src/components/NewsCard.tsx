@@ -19,7 +19,7 @@ interface NewsCardProps {
 
 export default function NewsCard({ news }: NewsCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-100">
+    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden border border-stone-200">
       <div className="relative h-48">
         {news.thumbnail ? (
           <Image
@@ -29,8 +29,8 @@ export default function NewsCard({ news }: NewsCardProps) {
             className="object-cover"
           />
         ) : (
-          <div className="w-full h-full bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center">
-            <svg className="w-16 h-16 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="w-full h-full bg-gradient-to-br from-stone-100 to-stone-200 flex items-center justify-center">
+            <svg className="w-16 h-16 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5a2.5 2.5 0 00-2.5-2.5H15" />
             </svg>
           </div>
@@ -39,7 +39,7 @@ export default function NewsCard({ news }: NewsCardProps) {
       
       <div className="p-6">
         <div className="mb-3">
-          <span className="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full font-medium">
+          <span className="inline-block bg-stone-100 text-slate-700 text-xs px-2 py-1 rounded-full font-medium">
             {new Date(news.publishDate).toLocaleDateString('ja-JP', {
               year: 'numeric',
               month: '2-digit',
@@ -48,17 +48,17 @@ export default function NewsCard({ news }: NewsCardProps) {
           </span>
         </div>
         
-        <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
+        <h3 className="text-xl font-bold text-slate-800 mb-3 line-clamp-2">
           {news.title}
         </h3>
         
-        <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-3">
+        <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-3">
           {news.summary}
         </p>
         
         <Link
           href={`/news/${news.slug}`}
-          className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium text-sm transition-colors duration-200"
+          className="inline-flex items-center text-slate-600 hover:text-slate-800 font-medium text-sm transition-colors duration-200"
         >
           続きを読む
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -19,9 +19,25 @@
   },
   "company": {
     "heading": "About Us",
-    "subtitle": "History and Philosophy of Okamoto Foods",
-    "body": "Since our founding in 1921, we have delivered safe and reliable foods using carefully selected domestic ingredients, built on over a century of expertise and dedication.",
-    "viewMore": "Learn More About Our Company",
+    "subtitle": "Over 100 Years of Tradition and Innovation",
+    "nav": {
+      "greeting": "Message from Management",
+      "mission": "Corporate Philosophy",
+      "overview": "Company Overview",
+      "history": "History",
+      "features": "Our Features",
+      "production": "Production Lines",
+      "access": "Access"
+    },
+    "companyName": "Okamoto Foods Co., Ltd.",
+    "heroDescription": "Since our founding in 1921, we have been providing<br />safe, reliable, and delicious food for over a century.",
+    "tradition": "Over 100 Years of Tradition and Innovation",
+    "founded": "Year of Establishment",
+    "yearsHistory": "Years of History",
+    "productCategories": "Product Categories",
+    "contactUs": "Contact Us",
+    "body": "Since our founding in 1921, we have been delivering safe and reliable foods made from domestic ingredients, utilizing the technology and passion cultivated over more than 100 years of history.",
+    "viewMore": "View Company Information",
     "mission": "We provide safe, reliable, and delicious food to everyone, contributing to a healthy and happy society",
     "values": {
       "quality": {
@@ -41,23 +57,232 @@
       "title": "Message from Management",
       "president": "President & CEO",
       "name": "Yoshihisa Okamoto",
-      "content1": "Our company was founded in May 1921 as a tomato sauce processor. For over 100 years, we have continued to create products with a commitment to domestic ingredients.",
-      "content2": "Based on our belief that 'good products can only be made from good ingredients,' we value our relationships with producers.",
-      "content3": "We sincerely appreciate your continued support and patronage as we move forward."
+      "content1": "Our company was founded in May 1921 as a tomato sauce processor. Since then, we have established ourselves as one of the top brands in fruit processing products, including mandarin oranges and peaches. Under our beloved OK mark, we have received widespread support from various sectors, including school meal programs.",
+      "content2": "The trends surrounding 'food' are constantly changing with the times. We firmly grasp these temporal changes and continue our day-and-night improvement efforts from ingredient procurement to processing and distribution to deliver products that satisfy our customers.",
+      "content3": "Moving forward, we will continue to strive for improved manufacturing technology based on the high trust and achievements cultivated since our founding, contributing to the development of healthy and prosperous dietary habits. We sincerely ask for your continued support and patronage.",
+      "content4": "We sincerely appreciate your continued support and patronage as we move forward."
+    },
+    "overview": {
+      "title": "Company Overview",
+      "subtitle": "About our company",
+      "labels": {
+        "companyName": "Company Name",
+        "business": "Business",
+        "address": "Head Office & Factory",
+        "established": "Established",
+        "capital": "Capital",
+        "representative": "Representative Director",
+        "employees": "Employees",
+        "relatedCompanies": "Related Companies",
+        "products": "Product Categories",
+        "banks": "Partner Banks",
+        "mainCustomers": "Main Customers"
+      },
+      "values": {
+        "companyName": "Okamoto Foods Co., Ltd.",
+        "business": "Manufacturing and sales of canned vegetables and fruits, pouches, and frozen foods",
+        "address": "3-17 Kaname-cho, Minami-ku, Nagoya, Aichi 457-0802, Japan\nTEL: +81-52-611-5301\nFAX: +81-52-613-2607",
+        "established": "January 1953",
+        "capital": "24,000 thousand yen",
+        "representative": "Yoshihisa Okamoto",
+        "employees": "Approximately 100",
+        "relatedCompanies": "Toyo Holdings Co., Ltd. affiliated companies:\nToas Co., Ltd., Toyo Foods Co., Ltd. (Toyokawa City, Aichi)",
+        "products": "Mandarin Orange Cans & Pouches (Domestic/Imported)\nYellow Peach Cans & Pouches (Domestic/Imported)\nDomestic Tomato Cans & Pouches\nMushroom Cans & Pouches (Domestic/Imported)\nPineapple Cans & Pouches\nOther Fruit & Vegetable Cans & Pouches\nFrozen Fruits & Frozen Vegetables",
+        "banks": "MUFG Bank Kasadera Branch\nMizuho Bank Nagoya Branch\nNagoya Bank Naruo Branch\nJapan Finance Corporation Nagoya Branch, Atsuta Branch",
+        "mainCustomers": "Meikyu Co., Ltd.\nToas Co., Ltd.\nNagoya Education Sports Association\nTokai Co-op Federation\nKomi Co., Ltd.\nSato Trading Co., Ltd.\nHouse Foods Group Holdings Co., Ltd.\nKewpie Corporation\nAnd others"
+      },
+      "stats": {
+        "yearsHistory": "Years of History",
+        "employeeCount": "Employees"
+      }
+    },
+    "philosophy": {
+      "missionStatement": "Good products can only be made from good ingredients",
+      "smile": {
+        "title": "Smiles",
+        "description": "For our customers' smiles, we always pursue the highest quality"
+      },
+      "gratitude": {
+        "title": "Gratitude",
+        "description": "We never forget our gratitude to producers and value trust relationships"
+      },
+      "health": {
+        "title": "Health",
+        "description": "We contribute to the development of healthy and enriching dietary habits"
+      }
+    },
+    "managementPolicy": {
+      "title": "Management Policy",
+      "qualityFirst": {
+        "title": "Quality First",
+        "description": "We build a consistent quality management system from ingredient selection to manufacturing processes, delivering products that customers can consume with confidence."
+      },
+      "innovation": {
+        "title": "Technological Innovation",
+        "description": "While inheriting traditional techniques, we introduce the latest technology to develop better products and improve manufacturing efficiency."
+      },
+      "socialContribution": {
+        "title": "Social Contribution",
+        "description": "We work in harmony with local communities and contribute to realizing a sustainable society through environmentally conscious business activities."
+      },
+      "humanDevelopment": {
+        "title": "Human Development",
+        "description": "We support the growth of each employee and strive to create a rewarding workplace environment."
+      }
+    },
+    "history": {
+      "title": "Company History",
+      "subtitle": "Our journey through the years",
+      "timeline": [
+        {
+          "year": "May 1921",
+          "event": "Founded",
+          "description": "Chiyomatsu Okamoto founded a tomato sauce processing business in Naruocho, Minami-ku, Nagoya"
+        },
+        {
+          "year": "1946",
+          "event": "Business Expansion",
+          "description": "Started manufacturing various jams and fish canned products in addition to tomato ketchup and sauces"
+        },
+        {
+          "year": "January 1953",
+          "event": "Incorporation",
+          "description": "Reorganized as a corporation with capital of 1,000 thousand yen"
+        },
+        {
+          "year": "May 1957",
+          "event": "Factory Relocation",
+          "description": "Relocated headquarters and factory to current location. Began full-scale production of fruit and vegetable canned products"
+        },
+        {
+          "year": "1966",
+          "event": "New Factory Construction",
+          "description": "Built a new factory on the same premises. Increased capital to 12,000 thousand yen"
+        },
+        {
+          "year": "June 1977",
+          "event": "Factory Expansion",
+          "description": "Built a 2-story reinforced concrete new factory at the current location. Increased capital to 24,000 thousand yen"
+        },
+        {
+          "year": "October 1983",
+          "event": "Automation Promotion",
+          "description": "Completed automated mushroom production line (salt preservation recovery, first in Japan)"
+        },
+        {
+          "year": "September 1985",
+          "event": "Equipment Modernization",
+          "description": "Introduced computer-controlled large rotary retort sterilizer"
+        },
+        {
+          "year": "September 1988",
+          "event": "Facility Enhancement",
+          "description": "Built 3-story new factory and 4-story headquarters office at current location"
+        },
+        {
+          "year": "September 1992",
+          "event": "Technological Innovation",
+          "description": "Introduced automatic retort pouch filling line"
+        },
+        {
+          "year": "September 1999",
+          "event": "Quality Control Enhancement",
+          "description": "Introduced X-ray foreign matter removal equipment"
+        },
+        {
+          "year": "November 2006",
+          "event": "Frozen Food Business Start",
+          "description": "Introduced continuous IQF (Individual Quick Freezing) line. Started manufacturing frozen fruits and vegetables"
+        },
+        {
+          "year": "April 2016",
+          "event": "New Management",
+          "description": "Yoshihisa Okamoto became President & Representative Director"
+        },
+        {
+          "year": "October 2016",
+          "event": "North Factory Construction",
+          "description": "Built 2-story steel-frame new factory (North Factory) adjacent to headquarters"
+        },
+        {
+          "year": "April 2019",
+          "event": "Group Collaboration Strengthening",
+          "description": "Introduced retort pouch automatic filling line. Operating as Toas Co., Ltd. Nagoya Factory"
+        },
+        {
+          "year": "April 2021",
+          "event": "Mandarin Orange Line Renewal",
+          "description": "Complete renewal of mandarin orange acid treatment line"
+        },
+        {
+          "year": "February 2022",
+          "event": "Dessert Business Launch",
+          "description": "Introduced cup dessert production line. Operating as Toas Co., Ltd. Nagoya Factory"
+        },
+        {
+          "year": "March 2024",
+          "event": "JFS-B Certification Obtained",
+          "description": "Obtained JFS-B Standard compliance certification"
+        }
+      ],
+      "summaryTitle": "Over 100 Years of History",
+      "summaryDescription": "Since our founding in 1921, we have continued to innovate and adapt to changing times, consistently providing products beloved by our customers."
+    },
+    "groupCompanies": {
+      "title": "Group Companies",
+      "subtitle": "Toyo Holdings Co., Ltd.",
+      "description": "Okamoto Foods Co., Ltd. is a member of \"Toyo Holdings Co., Ltd.\"",
+      "holding": {
+        "name": "Toyo Holdings Co., Ltd.",
+        "description": "As a group company, we deliver safe and secure food products through food processing business."
+      },
+      "okamoto": {
+        "name": "Okamoto Foods Co., Ltd.",
+        "business": "Manufacturing of fruit and vegetable processed products",
+        "description": "Manufacturing of canned goods, pouches, and frozen products such as mandarin oranges, yellow peaches, and tomatoes",
+        "imageAlt": "Okamoto Foods company building exterior"
+      },
+      "toasu": {
+        "name": "Toas Co., Ltd.",
+        "business": "Contract manufacturing of medical foods and processed foods",
+        "description": "Medical foods (spout pouches, bags, etc.)\nProcessed foods (dry pack canned goods, pouches, etc.)",
+        "website": "Visit Website",
+        "imageAlt": "Toas Co., Ltd. company building exterior"
+      }
     }
   },
   "products": {
     "title": "OK BRAND Main Products",
+    "mainProducts": "Main Products",
     "subtitle": "We deliver safe and reliable food products centered on domestic agricultural produce",
     "viewMore": "View All Products",
+    "qualityDescription": "All products are manufactured with carefully selected domestic ingredients under strict quality control.",
+    "scrollInstruction": "← Scroll left and right to view →",
+    "swipeInstruction": "← Swipe to view →",
+    "learnMore": "Learn More",
+    "premiumQuality": "Premium Quality",
+    "viewMoreProducts": "View More",
+    "completeLineup": "View our complete product lineup",
+    "toProductList": "To Product List",
+    "qualityCommitment": "Commitment to Quality",
+    "contactUs": "Contact Us",
+    "productCategories": "Main Product Categories",
+    "qualityHistoryDescription": "With over 100 years of expertise and quality control developed throughout our history, we deliver safe and reliable products using carefully selected domestic and international ingredients.",
+    "productInquiries": "Product Inquiries",
+    "inquiryDescription": "Please feel free to contact us with any questions or quotation requests.<br />Our specialist staff will respond to you with care.",
+    "contactForm": "Contact Form",
+    "productLineup": "Product Lineup",
+    "selectedQuality": "Selected Quality",
+    "qualityMessage": "With over 100 years of expertise and quality control developed throughout our history,<br />we deliver safe and reliable products",
+    "selectCategory": "Select Category",
     "categories": {
       "mikan": {
-        "title": "Mikan (Mandarin Orange)",
-        "description": "Fresh mandarins harvested at peak season are carefully processed by removing peels, seeds, and membranes, then preserved segment by segment in light syrup. Enjoy the enhanced fruit flavor in every bite.",
+        "title": "Mandarin Orange",
+        "description": "Fresh mandarin oranges harvested at peak season are carefully processed by removing peels, seeds, and membranes, then preserved segment by segment in light syrup-preserved format. Enjoy the enhanced fruit flavor in every bite.",
         "products": {
           "domesticCan": {
-            "name": "Domestic Mikan #1 Can (L/M) (Light Syrup)",
-            "description": "Light sweetness syrup-preserved domestic mikan canned product",
+            "name": "Domestic Mandarin Orange #1 Can (L/M) (Light Syrup)",
+            "description": "Light sweetness syrup-preserved domestic mandarin orange canned products",
             "specs": {
               "shape": "Whole segments",
               "package": "#1 Can×6",
@@ -65,7 +290,7 @@
               "totalWeight": "3,050g",
               "productDimensions": "Φ156×177(mm)",
               "caseDimensions": "475×320×185(mm)",
-              "ingredients": "Mikan (domestic), sugar",
+              "ingredients": "Mandarin orange (domestic), sugar",
               "additives": "Citric acid",
               "shelfLife": "36 months",
               "origin": "Japan",
@@ -75,57 +300,127 @@
             }
           },
           "pouche1kg": {
-            "name": "Mikan 1kg Pouch",
-            "description": "Light sweetness syrup-preserved Chinese mikan pouch type",
+            "name": "Mandarin Orange 1kg Pouch",
+            "description": "Light sweetness syrup-preserved Chinese mandarin orange pouch type",
             "specs": {
-              "shape": "Segments",
-              "package": "1kg Pouch",
+              "shape": "Whole segments",
+              "package": "1kg Pouch×12",
               "solidWeight": "1kg",
-              "shelfLife": "2 years",
-              "origin": "China"
+              "totalWeight": "1.4kg",
+              "productDimensions": "170×240×40(mm)",
+              "caseDimensions": "370×530×250(mm)",
+              "ingredients": "Mandarin orange (China), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "24 months",
+              "origin": "China",
+              "finalProcessing": "Japan",
+              "janCode": "4993521001013",
+              "itfCode": "14993521001010"
             }
           },
           "domesticPouch1kg": {
-            "name": "Domestic Mikan 1kg Pouch",
-            "description": "Light sweetness syrup-preserved domestic mikan pouch type",
+            "name": "Domestic Mandarin Orange 1kg Pouch",
+            "description": "Light sweetness syrup-preserved domestic mandarin orange pouch type",
             "specs": {
-              "shape": "Segments",
-              "package": "1kg Pouch",
+              "shape": "Whole segments",
+              "package": "1kg Pouch×12",
               "solidWeight": "1kg",
-              "shelfLife": "2 years",
-              "origin": "Domestic",
-              "itemCode": "3011"
+              "totalWeight": "1.4kg",
+              "productDimensions": "170×240×40(mm)",
+              "caseDimensions": "370×530×250(mm)",
+              "ingredients": "Mandarin orange (domestic), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "24 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "itemCode": "3011",
+              "janCode": "4993521003011",
+              "itfCode": "14993521003018"
             }
           },
           "chineseCan": {
-            "name": "Chinese Mikan #1 Can",
-            "description": "Light sweetness syrup-preserved Chinese mikan canned product",
+            "name": "Chinese Mandarin Orange #1 Can",
+            "description": "Light sweetness syrup-preserved Chinese mandarin orange canned products",
             "specs": {
-              "shape": "Segments",
-              "package": "#1 Can",
-              "solidWeight": "1800g",
-              "totalWeight": "3000g",
-              "shelfLife": "3 years",
-              "origin": "China"
+              "shape": "Whole segments",
+              "package": "#1 Can×6",
+              "solidWeight": "1,800g",
+              "totalWeight": "3,000g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "Mandarin orange (China), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "36 months",
+              "origin": "China",
+              "finalProcessing": "Japan",
+              "janCode": "4993521002003",
+              "itfCode": "14993521002000"
             }
           }
         }
       },
       "peach": {
         "title": "Yellow Peach",
-        "description": "Domestic yellow peaches and premium Greek yellow peaches are processed by removing pits and peels, then conveniently diced. Preserved in light syrup to enjoy the natural deliciousness of the fruit flesh.",
+        "description": "Domestic yellow peaches and premium Greek yellow peaches are processed by removing pits and peels, then conveniently diced. Preserved in light syrup-preserved format to enjoy the natural deliciousness of the fruit flesh.",
         "products": {
           "domesticCanDiced": {
             "name": "Domestic Yellow Peach Diced #1 Can",
-            "description": "Light sweetness syrup-preserved domestic yellow peach diced cut canned product"
+            "description": "Light sweetness syrup-preserved domestic yellow peach diced cut canned products",
+            "specs": {
+              "shape": "Diced cut",
+              "package": "#1 Can×6",
+              "solidWeight": "1,700g",
+              "totalWeight": "3,000g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "Yellow peach (domestic), sugar",
+              "additives": "Citric acid, antioxidant (Vitamin C)",
+              "shelfLife": "36 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521004007",
+              "itfCode": "14993521004004"
+            }
           },
           "domesticPouch1kg": {
             "name": "Domestic Yellow Peach Diced 1kg Pouch",
-            "description": "Light sweetness syrup-preserved domestic yellow peach diced cut pouch type"
+            "description": "Light sweetness syrup-preserved domestic yellow peach diced cut pouch type",
+            "specs": {
+              "shape": "Diced cut",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1kg",
+              "productDimensions": "160×260×30mm",
+              "caseDimensions": "330×270×190mm",
+              "ingredients": "Yellow peach (domestic), sugar",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003215",
+              "itfCode": "14993521003212",
+              "itemCode": "3211"
+            }
           },
           "greekPouch1kg": {
             "name": "Yellow Peach Diced 1kg Pouch",
-            "description": "Light sweetness syrup-preserved Greek yellow peach diced cut pouch type"
+            "description": "Light sweetness syrup-preserved Greek yellow peach diced cut pouch type",
+            "specs": {
+              "shape": "Diced cut",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1kg",
+              "productDimensions": "160×260×30mm",
+              "caseDimensions": "330×270×190mm",
+              "ingredients": "Yellow peach (Greece), sugar",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months",
+              "origin": "Greece",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003208",
+              "itfCode": "14993521003205",
+              "itemCode": "3201"
+            }
           }
         }
       },
@@ -135,15 +430,61 @@
         "products": {
           "domesticWhole": {
             "name": "Domestic Tomato Whole #1 Can",
-            "description": "Rare whole type for domestic tomatoes"
+            "description": "Rare whole type for domestic tomatoes",
+            "specs": {
+              "shape": "Whole",
+              "package": "#1 Can×6",
+              "solidWeight": "2,300g",
+              "totalWeight": "3,000g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "Tomato (domestic), tomato juice",
+              "additives": "Citric acid",
+              "shelfLife": "36 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521006018",
+              "itfCode": "14993521006015"
+            }
           },
           "domesticDiced": {
             "name": "Domestic Tomato Diced #1 Can",
-            "description": "Easy-to-use diced cut type"
+            "description": "Easy-to-use diced cut type",
+            "specs": {
+              "shape": "Diced cut",
+              "package": "#1 Can×6",
+              "solidWeight": "2,300g",
+              "totalWeight": "3,000g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "Tomato (domestic), tomato juice",
+              "additives": "Citric acid",
+              "shelfLife": "36 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521007015",
+              "itfCode": "14993521007012"
+            }
           },
           "domesticPouch3kg": {
             "name": "Domestic Cut Tomato 3kg Pouch",
-            "description": "Easy-to-use diced cut (pouch) type 3kg"
+            "description": "Easy-to-use diced cut (pouch) type 3kg",
+            "specs": {
+              "shape": "Diced cut",
+              "package": "3kg Pouch×4",
+              "solidWeight": "3kg",
+              "totalWeight": "3kg",
+              "contentVolume": "3kg",
+              "productDimensions": "200×300×50(mm)",
+              "caseDimensions": "420×320×220(mm)",
+              "ingredients": "Tomato (domestic), tomato juice",
+              "additives": "Citric acid",
+              "shelfLife": "24 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521008012",
+              "itfCode": "14993521008019"
+            }
           }
         }
       },
@@ -153,49 +494,159 @@
         "products": {
           "domesticSlicedPouch": {
             "name": "Domestic Mushroom Sliced 1kg Pouch",
-            "description": "Easy-to-use sliced domestic mushroom pouch type"
+            "description": "Easy-to-use sliced domestic mushroom pouch type",
+            "specs": {
+              "shape": "Sliced",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1.1kg",
+              "productDimensions": "160×260×30(mm)",
+              "caseDimensions": "330×270×190(mm)",
+              "ingredients": "Mushroom (domestic)",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003710",
+              "itfCode": "14993521003717",
+              "itemCode": "3711"
+            }
           },
           "chineseSlicedCan": {
             "name": "Mushroom Sliced #1 Can",
-            "description": "Easy-to-use sliced Chinese mushroom canned product"
+            "description": "Easy-to-use sliced Chinese mushroom canned products",
+            "specs": {
+              "shape": "Sliced",
+              "package": "#1 Can×6",
+              "solidWeight": "1,700g",
+              "totalWeight": "3,000g",
+              "productDimensions": "Φ156×177(mm)",
+              "caseDimensions": "475×320×185(mm)",
+              "ingredients": "Mushroom (China)",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "36 months",
+              "origin": "China",
+              "finalProcessing": "Japan",
+              "janCode": "4993521009019",
+              "itfCode": "14993521009016"
+            }
           },
           "europeanSlicedPouch": {
             "name": "Mushroom Sliced (European Ingredients) 1kg Pouch",
-            "description": "Easy-to-use sliced Dutch mushroom pouch type"
+            "description": "Easy-to-use sliced Dutch mushroom pouch type",
+            "specs": {
+              "shape": "Sliced",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1.1kg",
+              "productDimensions": "160×260×30(mm)",
+              "caseDimensions": "330×270×190(mm)",
+              "ingredients": "Mushroom (Netherlands)",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months",
+              "origin": "Netherlands",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003703",
+              "itfCode": "14993521003700",
+              "itemCode": "3707"
+            }
           },
           "chineseSlicedPouch": {
             "name": "Mushroom Sliced 1kg Pouch",
-            "description": "Easy-to-use sliced Chinese mushroom pouch type"
+            "description": "Easy-to-use sliced Chinese mushroom pouch type",
+            "specs": {
+              "shape": "Sliced",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1.1kg",
+              "productDimensions": "160×260×30(mm)",
+              "caseDimensions": "330×270×190(mm)",
+              "ingredients": "Mushroom (China)",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months",
+              "origin": "China",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003604",
+              "itfCode": "14993521003601",
+              "itemCode": "3605"
+            }
           }
         }
       },
       "pineapple": {
         "title": "Pineapple",
-        "description": "Sweet and aromatic Thai pineapples are cut into bite-sized pieces. Preserved in light syrup to enjoy the natural deliciousness of the fruit flesh.",
+        "description": "Sweet and aromatic Thai pineapples are cut into bite-sized pieces. Preserved in light syrup-preserved format to enjoy the natural deliciousness of the fruit flesh.",
         "products": {
           "tidbitsPouch1kg": {
             "name": "Pineapple Tidbits 1kg Pouch",
-            "description": "Light sweetness syrup-preserved Thai pineapple bite-sized cut pouch type"
+            "description": "Light sweetness syrup-preserved Thai pineapple bite-sized cut pouch type",
+            "specs": {
+              "shape": "Tidbits",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1.4kg",
+              "productDimensions": "160×260×30(mm)",
+              "caseDimensions": "330×270×190(mm)",
+              "ingredients": "Pineapple (Thailand), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "24 months",
+              "origin": "Thailand",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003109",
+              "itfCode": "14993521003106",
+              "itemCode": "3104"
+            }
           }
         }
       },
       "mixedFruits": {
         "title": "Mixed Fruits",
-        "description": "Mixed bite-sized pineapple (Thai), yellow peach (Greek), and mikan (domestic). Eliminates the need to prepare multiple fruits separately.",
+        "description": "Mixed bite-sized pineapple (Thai), yellow peach (Greek), and mandarin orange (domestic). Eliminates the need to prepare multiple fruits separately.",
         "products": {
           "mixedPouch1kg": {
             "name": "Mixed Fruits 1kg Pouch",
-            "description": "Light sweetness syrup-preserved pineapple, yellow peach, and mikan mixed bite-sized cut pouch type"
+            "description": "Light sweetness syrup-preserved pineapple, yellow peach, and mandarin orange mixed bite-sized cut pouch type",
+            "specs": {
+              "shape": "Mixed cut",
+              "package": "1kg Pouch×12",
+              "solidWeight": "1kg",
+              "totalWeight": "1.4kg",
+              "productDimensions": "160×260×30(mm)",
+              "caseDimensions": "330×270×190(mm)",
+              "ingredients": "Pineapple (Thailand), yellow peach (Greece), mandarin orange (domestic), sugar",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months",
+              "origin": "Thailand, Greece, Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521003505",
+              "itfCode": "14993521003502",
+              "itemCode": "3502"
+            }
           }
         }
       },
       "mikanPulp": {
-        "title": "Others (Mikan Pulp)",
-        "description": "Domestic 'granular mikan' pulp. Syrup-preserved pulp used as ingredients for beverages, yogurt, jelly, and other products.",
+        "title": "Others (Mandarin Orange Pulp)",
+        "description": "Domestic 'granular mandarin orange' pulp. Syrup-preserved pulp used as ingredients for beverages, yogurt, jelly, and other products.",
         "products": {
           "domesticPulpCan": {
-            "name": "Domestic Mikan Pulp #5 Can",
-            "description": "Light sweetness syrup-preserved domestic mikan granular mikan canned product"
+            "name": "Domestic Mandarin Orange Pulp #5 Can",
+            "description": "Light sweetness syrup-preserved domestic mandarin orange granular canned products",
+            "specs": {
+              "shape": "Pulp",
+              "package": "#5 Can×6",
+              "solidWeight": "4kg",
+              "totalWeight": "5kg",
+              "productDimensions": "Φ168×198(mm)",
+              "caseDimensions": "510×340×210(mm)",
+              "ingredients": "Mandarin orange (domestic), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "36 months",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521010015",
+              "itfCode": "14993521010012"
+            }
           }
         }
       },
@@ -204,16 +655,80 @@
         "description": "Frozen fruits featuring 'domestic fruits,' 'peeled,' and 'syrup-preserved' quality. We handle everything from fresh fruit procurement (direct from production areas) and primary processing to final products consistently. Domestic fruits are peeled, syrup-preserved, and individually frozen piece by piece.",
         "products": {
           "frozenMikan1kg": {
-            "name": "OK Frozen Fruits Domestic Mikan 1kg",
-            "description": "Syrup-preserved domestic mikan individually frozen for easy use"
+            "name": "OK Frozen Fruits Domestic Mandarin Orange 1kg",
+            "description": "Syrup-preserved domestic mandarin orange individually frozen for easy use",
+            "specs": {
+              "shape": "Grain",
+              "package": "1kg Frozen×10",
+              "productSize": "1kg",
+              "contentVolume": "1kg",
+              "productDimensions": "220×140×70(mm)",
+              "caseDimensions": "460×300×300(mm)",
+              "ingredients": "Mandarin orange (domestic), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "24 months (-18℃)",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521002010",
+              "itfCode": "14993521002017"
+            }
           },
           "chillMikan110g": {
-            "name": "Chill Mikan 110g",
-            "description": "Syrup-preserved domestic mikan individually frozen for easy use"
+            "name": "Chill Mandarin Orange 110g",
+            "description": "Syrup-preserved domestic mandarin orange individually frozen for easy use",
+            "specs": {
+              "shape": "Grain",
+              "package": "110g Frozen×30",
+              "productSize": "110g",
+              "contentVolume": "110g",
+              "productDimensions": "135×205×40(mm)",
+              "caseDimensions": "430×285×210(mm)",
+              "ingredients": "Mandarin orange (domestic), sugar",
+              "additives": "Citric acid",
+              "shelfLife": "24 months (-18℃)",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521002010",
+              "itfCode": "14993521002017",
+              "itemCode": "2017"
+            }
           },
           "frozenPeach1kg": {
             "name": "OK Frozen Fruits Domestic Yellow Peach 1kg",
-            "description": "Syrup-preserved domestic yellow peach individually frozen for easy use"
+            "description": "Syrup-preserved domestic yellow peach individually frozen for easy use",
+            "specs": {
+              "shape": "Diced cut",
+              "package": "1kg Frozen×10",
+              "productSize": "1kg",
+              "contentVolume": "1kg",
+              "productDimensions": "220×140×70(mm)",
+              "caseDimensions": "460×300×300(mm)",
+              "ingredients": "Yellow peach (domestic), sugar",
+              "additives": "Citric acid, antioxidant (vitamin C)",
+              "shelfLife": "24 months (-18℃)",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521004014",
+              "itfCode": "14993521004011"
+            }
+          },
+          "frozenLemon700g": {
+            "name": "OK Frozen Fruits Domestic Lemon Sliced 700g",
+            "description": "Domestic lemon sliced and frozen for easy use",
+            "specs": {
+              "shape": "Sliced",
+              "package": "700g Frozen×10",
+              "contentVolume": "700g",
+              "productDimensions": "330×220×60(mm)",
+              "caseDimensions": "350×280×340(mm)",
+              "ingredients": "Lemon (domestic)",
+              "additives": "",
+              "shelfLife": "24 months (-18℃)",
+              "origin": "Japan",
+              "finalProcessing": "Japan",
+              "janCode": "4993521020151",
+              "itfCode": "14993521020158"
+            }
           }
         }
       }
@@ -223,15 +738,44 @@
       "package": "Package:",
       "solidWeight": "Solid Weight:",
       "totalWeight": "Total Weight:",
+      "contentVolume": "Content Volume:",
       "productSize": "Product Size:",
+      "productDimensions": "Product Dimensions:",
       "caseSize": "Case Size:",
+      "caseDimensions": "Case Dimensions:",
       "ingredients": "Ingredients:",
       "additives": "Additives:",
       "shelfLife": "Shelf Life:",
       "origin": "Origin:",
+      "finalProcessing": "Final Processing:",
+      "itemCode": "Item Code:",
       "janCode": "JAN Code:",
       "itfCode": "ITF Code:",
       "productDetails": "Product Details"
+    },
+    "altTexts": {
+      "domesticLemonSliced": "Frozen domestic lemon slices pack",
+      "chillMikan": "Chill mandarin orange small pack",
+      "pineappleTidbits": "Pineapple chunks 1kg pouch",
+      "peachDiced": "Diced yellow peach pouch type",
+      "domesticPeachDiced": "Domestic diced yellow peach 1kg pouch",
+      "dicedTomatoCanned": "Diced tomato canned product",
+      "tomatoPureePouch": "Tomato puree pouch type",
+      "frozenOrange": "Frozen orange pulp",
+      "frozenPeach": "Frozen yellow peach pulp",
+      "mikan1": "Domestic mandarin orange canned product",
+      "mikan2": "Domestic mandarin orange pouch type",
+      "mushroomCannedChina": "Chinese mushroom canned type",
+      "mushroomPouchChina": "Chinese mushroom pouch type",
+      "orangePulp": "Orange pulp and segments product",
+      "wholeTomatoCanned": "Whole tomato canned product",
+      "mikan1kgPouch": "Domestic mandarin orange 1kg pouch",
+      "chineseMikanCan": "Chinese mandarin orange canned type",
+      "chineseMikanPouch": "Chinese mandarin orange pouch type",
+      "peachGeneral": "Yellow peach product photo",
+      "mushroomSliceEuropean": "European mushroom sliced type",
+      "mushroomSliceDomestic": "Domestic mushroom sliced type",
+      "mixedFruit": "Mixed fruits 1kg pouch"
     }
   },
   "news": {
@@ -275,8 +819,10 @@
     "productsTitle": "Products",
     "companyTitle": "Company Information",
     "productsList": "Product List",
-    "mikanProducts": "Mandarin Canned",
-    "peachProducts": "Yellow Peach Canned",
+    "mikanProducts": "Mandarin Orange Canned Products",
+    "peachProducts": "Yellow Peach Canned Products", 
+    "tomatoProducts": "Tomato Products",
+    "mushroomProducts": "Mushroom Products",
     "frozenProducts": "Frozen Fruits",
     "companyOverview": "Company Overview",
     "privacyPolicy": "Privacy Policy"
@@ -285,14 +831,14 @@
     "title": "Commitment to Domestic Ingredients",
     "subtitle": "We implement contract cultivation and other initiatives to deliver safe, reliable, and delicious products.",
     "qualityTitle": "Good products can only be made from good ingredients",
-    "qualityDescription": "Having produced agricultural canned goods for many years, we understand this principle better than anyone.",
-    "rawMaterialsDescription": "Our domestic ingredient products include mandarins, tomatoes, peaches, and more. Rather than simply buying and selling ingredients, our product development begins by working closely with producers to build trust relationships and determine how to consistently create high-quality ingredients.",
+    "qualityDescription": "Having produced agricultural canned products for many years, we understand this principle better than anyone.",
+    "rawMaterialsDescription": "Our domestic ingredient products include mandarin oranges, tomatoes, peaches, and more. Rather than simply buying and selling ingredients, our product development begins by working closely with producers to build trust relationships and determine how to consistently create high-quality ingredients.",
     "procurementCapabilityTitle": "Domestic Ingredient Procurement Capability",
     "procurementCapabilityDescription": "We have strong connections with production areas and markets based on years of experience and trust, providing us with powerful procurement capabilities for various domestic agricultural ingredients.",
-    "procurementCapabilitySecond": "Through advanced initiatives such as cultivation contracts for specific seed varieties with producers and our own mandarin cultivation, we have established a system for stable medium- to long-term ingredient procurement.",
-    "cultivationTitle": "In-House Mandarin Cultivation",
-    "cultivationSubtitle": "In-house mandarin cultivation (Group joint project farm) started in 2021",
-    "cultivationDescription": "In collaboration with our group company Toas Co., Ltd., we began planting mandarin seedlings in March 2021.",
+    "procurementCapabilitySecond": "Through advanced initiatives such as cultivation contracts for specific seed varieties with producers and our own mandarin orange cultivation, we have established a system for stable medium- to long-term ingredient procurement.",
+    "cultivationTitle": "In-House Mandarin Orange Cultivation",
+    "cultivationSubtitle": "In-house mandarin orange cultivation (Group joint project farm) started in 2021",
+    "cultivationDescription": "In collaboration with our group company Toas Co., Ltd., we began planting mandarin orange seedlings in March 2021.",
     "location": "Location:",
     "locationValue": "Handa City, Aichi Prefecture",
     "farmArea": "Farm Area:",
@@ -311,7 +857,7 @@
     "lineHeader": "Agricultural Processing Line",
     "dailyCapacityHeader": "Daily Processing Capacity",
     "seasonCapacityHeader": "Seasonal Total",
-    "micanLine": "Domestic Mandarin Processing Line",
+    "micanLine": "Domestic Mandarin Orange Processing Line",
     "peachLine": "Domestic Peach Processing Line",
     "tomatoLine": "Domestic Tomato Processing Line",
     "foodSafetyTitle": "Food Safety",
@@ -324,7 +870,8 @@
       "title": "Feature Article",
       "heading": "Over 100 Years of History and Tradition",
       "description": "From our founding in 1921 to the present day. Discover our story woven with unwavering dedication and new challenges toward the next century.",
-      "readMore": "Read More"
+      "readMore": "Read More",
+      "altText": "Feature - Over 100 Years of History and Tradition"
     },
     "manufacturing": {
       "title": "Manufacturing Process Excellence",
@@ -333,6 +880,38 @@
     "recruitment": {
       "title": "Career Opportunities",
       "description": "Join our team to build the future together"
+    }
+  },
+  "specs": {
+    "shapes": {
+      "dice": "Diced",
+      "whole": "Whole",
+      "slice": "Sliced",
+      "tidbits": "Tidbits",
+      "mixed": "Mixed",
+      "pulp": "Pulp",
+      "grain": "Grain"
+    },
+    "packages": {
+      "can1": "#1 Can",
+      "can5": "#5 Can",
+      "pouch1kg": "1kg Pouch",
+      "pouch3kg": "3kg Pouch",
+      "frozen1kg": "Frozen 1kg",
+      "frozen110g": "Frozen 110g"
+    },
+    "origins": {
+      "domestic": "Domestic",
+      "china": "Chinese",
+      "greece": "Greek",
+      "netherlands": "Dutch",
+      "thailand": "Thai",
+      "mixed": "Thai・Greek・Domestic"
+    },
+    "shelfLife": {
+      "threeYears": "3 years",
+      "twoYears": "2 years",
+      "twoYearsFrozen": "2 years (-18℃)"
     }
   },
   "production": {
@@ -345,89 +924,230 @@
     },
     "lines": {
       "agricultural": {
-        "title": "Agricultural Line",
-        "content": "Domestic Fruits & Vegetables",
-        "items": "Mandarins, Peaches, etc.",
+        "title": "Agricultural Product Line",
+        "subtitle": "Production Site",
+        "content": "Domestic fruits and vegetables",
+        "items": "Mandarins, peaches, etc.",
         "features": [
-          "Seasonal Processing",
-          "Fresh Ingredients"
+          "Seasonal processing",
+          "Fresh ingredients"
         ]
       },
       "frozen": {
-        "title": "Frozen Line",
-        "subtitle": "Frozen Fruits",
-        "content": "Frozen Fruit Products",
-        "items": "Frozen Mandarins, Frozen Peaches",
+        "title": "Frozen Product Line",
+        "subtitle": "Production Site",
+        "content": "Frozen fruit products",
+        "items": "Frozen mandarin oranges, frozen peaches",
         "features": [
-          "Quick Freezing",
-          "Year-round Supply"
+          "Quick freezing",
+          "Year-round supply"
         ]
       },
       "dryPack": {
         "title": "Dry Pack Line",
-        "subtitle": "Pouch Packaging",
-        "content": "Pouch Packaged Products",
-        "items": "Pouch Fruits, Vegetables",
+        "subtitle": "Manufacturing Site",
+        "content": "Pouch-packaged products",
+        "items": "Pouch fruits, vegetables",
         "features": [
-          "Long-term Storage",
-          "Storage Convenience"
+          "Long-term storage",
+          "Convenient storage"
         ]
       },
       "cup": {
         "title": "Cup Line",
-        "subtitle": "Individual Serving Type",
-        "content": "Individual Size Products",
-        "items": "Cup Fruits, Jellies",
+        "subtitle": "Manufacturing Site",
+        "content": "Individual serving size products",
+        "items": "Cup fruits, jellies",
         "features": [
-          "Convenient Size",
-          "Ready-to-eat"
+          "Convenient size",
+          "Ready to eat"
         ]
       }
     },
     "schedule": {
-      "title": "Annual Production Schedule",
-      "subtitle": "Seasonal Production Planning",
+      "title": "Annual production schedule",
+      "subtitle": "Seasonal production plan",
       "caption": "Efficient production line operation throughout the year"
     },
     "videos": {
-      "title": "Manufacturing Process Videos",
-      "subtitle": "See our actual production sites",
+      "title": "Production process video",
+      "subtitle": "See the actual production site",
       "frozen": {
-        "title": "Frozen Fruit Production Line",
-        "description": "View our frozen fruit manufacturing process."
+        "title": "Frozen fruit production line",
+        "description": "See the frozen fruit production process."
       },
       "tomato": {
-        "title": "Tomato Canning Production Line",
-        "description": "View our OK BRAND tomato canning manufacturing process."
+        "title": "Tomato canning production line",
+        "description": "See the OK BRAND tomato canning production process."
       },
       "mikan": {
-        "title": "Mandarin Canning Production Line",
-        "description": "View our OK BRAND mandarin canning manufacturing process."
+        "title": "Mandarin orange canning production line",
+        "description": "See the OK BRAND mandarin orange canning production process."
       },
       "peach": {
-        "title": "Yellow Peach Canning Production Line",
-        "description": "View our OK BRAND yellow peach canning manufacturing process."
+        "title": "Yellow peach canning production line",
+        "description": "View the OK BRAND yellow peach canning production process."
       }
     },
     "quality": {
-      "title": "High-Quality Manufacturing Management",
-      "description": "We deliver the highest quality products through a combination of computer-controlled state-of-the-art manufacturing equipment and skilled technician craftsmanship.",
+      "title": "High-quality manufacturing management",
+      "description": "We deliver the highest quality products through a combination of computer-controlled state-of-the-art manufacturing equipment and skilled manual work by experienced technicians.",
       "management": {
-        "title": "Quality Management",
-        "description": "Strict quality control compliant with HACCP"
+        "title": "Quality control",
+        "description": "Strict quality control in accordance with HACCP standards"
       },
       "efficiency": {
         "title": "Efficiency",
         "description": "Efficient production through automation"
       },
       "inheritance": {
-        "title": "Technical Inheritance",
-        "description": "Fusion of traditional techniques and cutting-edge technology"
+        "title": "Technology inheritance",
+        "description": "Integration of traditional and cutting-edge technologies"
       }
+    },
+    "lineLabels": {
+      "contents": "Contents:",
+      "items": "Items:",
+      "features": "Features:"
+    }
+  },
+  "domesticCommitment": {
+    "title": "Commitment to Domestic Ingredients",
+    "subtitle": "We implement contract cultivation and other initiatives to deliver safe, reliable, and delicious products.",
+    "philosophy": {
+      "title": "Good products can only be made from good ingredients",
+      "description": "Having produced agricultural canned products for many years, we understand this principle better than anyone.",
+      "content": "Our domestic ingredient products include mandarin oranges, tomatoes, peaches, and more. Rather than simply buying and selling ingredients, our product development begins by working closely with producers to build trust relationships and determine how to consistently create high-quality ingredients."
+    },
+    "procurement": {
+      "title": "Domestic Ingredient Procurement Capability",
+      "description": "We have strong connections with production areas and markets based on years of experience and trust, providing us with powerful procurement capabilities for various domestic agricultural ingredients.",
+      "content": "Through advanced initiatives such as cultivation contracts for specific seed varieties with producers and our own mandarin orange cultivation, we have established a system for stable medium- to long-term ingredient procurement."
+    },
+    "ownCultivation": {
+      "badge": "NEW",
+      "title": "In-House Mandarin Orange Cultivation",
+      "subtitle": "In-house mandarin orange cultivation (Group joint project farm) started in 2021",
+      "description": "In collaboration with our group company Toas Co., Ltd., we began planting mandarin orange seedlings in March 2021.",
+      "details": {
+        "location": "Location: Handa City, Aichi Prefecture",
+        "area": "Farm Area: 13 hectares (approximately 2.7 times the size of Bantelin Dome Nagoya)",
+        "harvestStart": "Harvest Start: Scheduled for 2028",
+        "annualHarvest": "Annual Harvest (Target): 400 tons"
+      },
+      "purposes": {
+        "title": "Project Purpose",
+        "items": [
+          "Stable procurement of ingredients with suitable processing varieties",
+          "Local production for local consumption and food education initiatives"
+        ]
+      }
+    },
+    "seasonPack": {
+      "title": "Season Pack",
+      "description": "Various carefully cultivated domestic agricultural ingredients are processed while maintaining their fresh state."
+    },
+    "processingCapability": {
+      "title": "Agricultural Processing Capability",
+      "description": "We have proprietary equipment and production lines for each product category, establishing a system for stable production of domestic agricultural processed products.",
+      "table": {
+        "headers": {
+          "line": "Agricultural Processing Line",
+          "dailyCapacity": "Daily Processing Capacity",
+          "seasonTotal": "Seasonal Total"
+        },
+        "rows": [
+          {
+            "line": "Domestic Mandarin Orange Processing Line",
+            "dailyCapacity": "25t",
+            "seasonTotal": "1,400t"
+          },
+          {
+            "line": "Domestic Peach Processing Line",
+            "dailyCapacity": "20t",
+            "seasonTotal": "500t"
+          },
+          {
+            "line": "Domestic Tomato Processing Line",
+            "dailyCapacity": "15t",
+            "seasonTotal": "500t"
+          }
+        ]
+      }
+    },
+    "foodSafety": {
+      "title": "Food Safety",
+      "description": "To deliver products of 'reliable quality' and 'safety and security' to our customers, we maintain high awareness of product quality, focusing on ingredients and quality in our product development.",
+      "content": "We also listen to customer feedback, making 'safety and security' our top priority and quickly implementing improvements throughout the company to enhance quality."
+    },
+    "qualityManagement": {
+      "title": "Quality Management",
+      "description": "We have extensive technical expertise and manufacturing experience in agricultural processing. Beyond safety and nutritional components, we establish the safety of all products through strict quality testing and thorough quality management to ensure stable product quality and deliver safe, reliable products.",
+      "process": "In product manufacturing, we check hygiene management conditions and verify that each manufacturing process is implemented according to specified procedures.",
+      "testing": "We also conduct various tests including sensory, physicochemical, and microbiological testing, establishing a system where only products meeting specifications are shipped."
+    }
+  },
+  "access": {
+    "title": "Access",
+    "subtitle": "Access Information",
+    "companyLocation": "Company Location",
+    "companyName": "Okamoto Foods Co., Ltd.",
+    "postalCode": "〒457-0802",
+    "address": "3-17 Kaname-cho, Minami-ku, Nagoya, Aichi, Japan",
+    "phone": "TEL: +81-52-611-5301",
+    "fax": "FAX: +81-52-613-2607",
+    "transportTypes": {
+      "train": "Access by Train",
+      "car": "Access by Car"
+    },
+    "routes": {
+      "jr_kasadera": {
+        "line": "JR Tokaido Line",
+        "station": "Kasadera Station",
+        "method": "Taxi",
+        "time": "Approx. 10 min"
+      },
+      "jr_odaka": {
+        "line": "JR Tokaido Line",
+        "station": "Odaka Station", 
+        "method": "Taxi",
+        "time": "Approx. 10 min"
+      },
+      "meitetsu_shibata": {
+        "line": "Meitetsu Tokoname Line",
+        "station": "Shibata Station",
+        "method": "Walk",
+        "time": "15 min"
+      },
+      "highway_odaka": {
+        "line": "Nagoya Expressway Route 2",
+        "station": "Odaka IC",
+        "method": "Car",
+        "time": "1.5km"
+      },
+      "highway_toyoaki": {
+        "line": "Ise Bay Shore Road",
+        "station": "Toyoaki IC",
+        "method": "Car", 
+        "time": "5km"
+      }
+    },
+    "googleMap": {
+      "title": "View on Google Maps",
+      "description": "Check our detailed location"
+    },
+    "businessHours": {
+      "title": "Business Hours",
+      "weekdays": "Weekdays",
+      "saturday": "Saturday",
+      "sunday": "Sunday & Holidays",
+      "weekdaysTime": "8:00 - 17:00",
+      "saturdayTime": "8:00 - 12:00", 
+      "sundayTime": "Closed"
     }
   },
   "foodTable": {
-    "title1": "Mandarins Connect",
+    "title1": "Mandarin Oranges Connect",
     "title2": "to Everyday Dining",
     "subtitle1": "Safe and delicious flavors for daily meals.",
     "subtitle2": "Our fruits serve as a bridge that connects smiles.",
@@ -442,6 +1162,7 @@
     "form": {
       "name": "Name",
       "company": "Company",
+      "school": "School",
       "email": "Email Address",
       "phone": "Phone Number",
       "subject": "Subject",
@@ -461,7 +1182,7 @@
       "submitError": "Failed to send. Please try again.",
       "success": {
         "title": "Sent Successfully",
-        "description": "Thank you for your inquiry.\u003cbr\u003eWe will contact you after reviewing your message.",
+        "description": "Thank you for your inquiry.<br/>We will contact you after reviewing your message.",
         "newInquiry": "New Inquiry"
       }
     }
@@ -474,5 +1195,191 @@
   "header": {
     "logoAlt": "Okamoto Foods company logo",
     "est": "EST. 1921"
+  },
+  "recruit": {
+    "title": "Career Opportunities",
+    "subtitle": "Current Job Openings",
+    "qualificationMessage": "We welcome applications from those who have gratitude and respect, and are willing to take on challenges and change.",
+    "companyDescription": {
+      "paragraph1": "We continue to deliver safe, reliable, and delicious foods with smiles, focusing on processing domestic fruits and vegetables. For this purpose, we seek people who can respect all stakeholders, including customers and agricultural producers, as well as colleagues, with gratitude, and who are not satisfied with the status quo but constantly take on challenges and changes.",
+      "paragraph2": "Of course, everyone has many unknowns and concerns at first. We will prepare the working stage through OJT education, follow-up interviews, and various communications. Work is day shift only, and we support the realization of work-life balance.",
+      "paragraph3": "Currently, we have a friendly workplace atmosphere with about 80 employees. We will provide solid support, so you can work with confidence!"
+    },
+    "companySlogan": "Together with us... FOOD FOR YOUR SMILE!",
+    "jobCategories": {
+      "fullTime": "Full-time Employee",
+      "partTime": "Contract Employee (Part-time)"
+    },
+    "positions": {
+      "manufacturingManager": "Manufacturing Management",
+      "manufacturing": "Manufacturing",
+      "qualityControl": "Quality Control",
+      "newGraduate": "New Graduate (Spring 2024 graduation)"
+    },
+    "workConditions": {
+      "title": "Working Conditions",
+      "location": {
+        "label": "Work Location",
+        "address": "3-17 Kaname-cho, Minami-ku, Nagoya, Aichi"
+      },
+      "workingHours": {
+        "label": "Working Hours",
+        "details": "8:00-17:30 *Overtime available (about 10 hours per month)"
+      },
+      "annualHolidays": {
+        "label": "Annual Holidays",
+        "details": "120 days (according to company calendar)"
+      }
+    },
+    "application": {
+      "title": "HOW TO APPLY",
+      "instructions1": "Those wishing to apply, please apply using the form below or by phone.",
+      "instructions2": "Company information sessions and recruitment tests will be conducted regularly until capacity is reached.",
+      "contactPerson": {
+        "title": "Recruitment Contact",
+        "name": "General Affairs Department - Fujita"
+      },
+      "phoneButton": "Apply by Phone",
+      "contactForm": "Contact Form"
+    }
+  },
+  "mission": {
+    "title": "Okamoto Foods Philosophy",
+    "missionSection": {
+      "title": "Okamoto Foods Mission",
+      "content": "Okamoto Foods provides safe, reliable, and delicious food, contributing to the creation of a healthy and happy society."
+    },
+    "dreamSection": {
+      "title": "Okamoto Foods Dream",
+      "content": "Okamoto Foods will become a company that can deliver happiness to all people for the next 100 years."
+    },
+    "philosophySection": {
+      "title": "Okamoto Foods Fundamental Philosophy",
+      "subtitle": "Three Mottos",
+      "mottos": {
+        "smile": {
+          "title": "SMILE",
+          "points": [
+            "(1) Okamoto Foods creates safe, reliable, and delicious food that brings smiles to our customers.",
+            "(2) Okamoto Foods strives to create a workplace where employees can work with smiles."
+          ]
+        },
+        "gratitude": {
+          "title": "GRATITUDE",
+          "points": [
+            "(1) Okamoto Foods never forgets our gratitude to our customers.",
+            "(2) Okamoto Foods never forgets our gratitude to nature's blessings and our farming partners."
+          ]
+        },
+        "health": {
+          "title": "HEALTH",
+          "points": [
+            "(1) Okamoto Foods strives to develop and manufacture products that promote health by bringing out the best in ingredients.",
+            "(2) Okamoto Foods creates a healthy corporate structure and contributes to society as a good corporate citizen."
+          ]
+        }
+      }
+    },
+    "policySection": {
+      "title": "Okamoto Foods Management Policy",
+      "policies": [
+        "Respect people.",
+        "Think from the customer's perspective.",
+        "Conduct business fairly and honestly.",
+        "Continue to challenge and transform.",
+        "Everyone has a management perspective."
+      ]
+    },
+    "sloganSection": {
+      "title": "Okamoto Foods Slogan"
+    }
+  },
+  "domesticCommitment": {
+    "title": "Commitment to Domestic Ingredients",
+    "subtitle": "We implement contract cultivation and other initiatives to deliver safe, reliable, and delicious products.",
+    "philosophy": {
+      "title": "Philosophy",
+      "description": "Good products can only be made from good ingredients",
+      "content": "Having produced agricultural canned products for many years, we understand this principle better than anyone. This is why we are committed to domestic ingredients and work directly with farmers to ensure the highest quality."
+    },
+    "procurement": {
+      "title": "Procurement Capability", 
+      "description": "Direct partnerships with domestic farmers",
+      "content": "Through long-term relationships with trusted farmers across Japan, we ensure consistent supply of premium quality fruits and vegetables. Our procurement network spans from Hokkaido to Kyushu, allowing us to select the best seasonal produce."
+    },
+    "ownCultivation": {
+      "badge": "Our Own Farm",
+      "title": "Own Cultivation Initiative",
+      "subtitle": "Direct control over quality from farm to factory",
+      "description": "To ensure the highest quality and safety standards, we operate our own cultivation facilities where we can control every aspect of the growing process.",
+      "details": {
+        "location": "Location: Aichi Prefecture",
+        "area": "Cultivation Area: 50 hectares",
+        "harvestStart": "Harvest Period: June - November", 
+        "annualHarvest": "Annual Harvest: 2,000 tons"
+      },
+      "purposes": {
+        "title": "Cultivation Purposes",
+        "items": [
+          "Quality control from seed to harvest",
+          "Development of new varieties and cultivation methods",
+          "Training ground for agricultural technology",
+          "Ensuring stable supply of premium ingredients"
+        ]
+      }
+    },
+    "seasonPack": {
+      "title": "Season Pack Processing",
+      "description": "We process fruits at their peak season to capture maximum flavor and nutritional value. Our season pack method preserves the natural taste and texture of fresh fruits year-round."
+    },
+    "processing": {
+      "tomato": "Tomato Processing",
+      "peach": "Yellow Peach Processing", 
+      "mikan": "Mikan Processing"
+    },
+    "processingCapability": {
+      "title": "Processing Capability",
+      "description": "Our state-of-the-art facilities can handle large-scale processing while maintaining artisanal quality standards.",
+      "table": {
+        "headers": {
+          "line": "Processing Line",
+          "dailyCapacity": "Daily Capacity",
+          "seasonTotal": "Season Total"
+        },
+        "rows": [
+          {
+            "line": "Mikan Processing Line",
+            "dailyCapacity": "50 tons",
+            "seasonTotal": "5,000 tons"
+          },
+          {
+            "line": "Peach Processing Line", 
+            "dailyCapacity": "30 tons",
+            "seasonTotal": "3,000 tons"
+          },
+          {
+            "line": "Tomato Processing Line",
+            "dailyCapacity": "80 tons", 
+            "seasonTotal": "8,000 tons"
+          },
+          {
+            "line": "Frozen Fruit Line",
+            "dailyCapacity": "20 tons",
+            "seasonTotal": "2,000 tons"
+          }
+        ]
+      }
+    },
+    "foodSafety": {
+      "title": "Food Safety",
+      "description": "Comprehensive safety management system",
+      "content": "We implement HACCP-based food safety management throughout our entire operation, from raw material receiving to final product shipment. Regular inspections and quality audits ensure consistent safety standards."
+    },
+    "qualityManagement": {
+      "title": "Quality Management", 
+      "description": "Rigorous quality control at every step",
+      "process": "Our quality control process includes incoming material inspection, in-process monitoring, and final product testing.",
+      "testing": "Advanced testing equipment and trained quality assurance staff ensure every product meets our exacting standards."
+    }
   }
 }

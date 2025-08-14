@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
@@ -73,7 +75,7 @@ export default function ProductionLines() {
   ]
 
   return (
-    <section id="production" className="py-24 px-4 bg-white">
+    <section id="production" className="py-24 px-4 bg-white scroll-mt-32">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <div className="space-y-4">
@@ -140,17 +142,17 @@ export default function ProductionLines() {
 
                       <div className="space-y-3">
                         <div>
-                          <span className="text-sm font-semibold text-slate-700">内容：</span>
+                          <span className="text-sm font-semibold text-slate-700">{t('lineLabels.contents')}</span>
                           <span className="text-sm text-slate-600 ml-2">{line.content}</span>
                         </div>
                         
                         <div>
-                          <span className="text-sm font-semibold text-slate-700">品目：</span>
+                          <span className="text-sm font-semibold text-slate-700">{t('lineLabels.items')}</span>
                           <span className="text-sm text-slate-600 ml-2">{line.items}</span>
                         </div>
                         
                         <div>
-                          <span className="text-sm font-semibold text-slate-700 block mb-2">特徴：</span>
+                          <span className="text-sm font-semibold text-slate-700 block mb-2">{t('lineLabels.features')}</span>
                           <ul className="space-y-1">
                             {(Array.isArray(line.features) ? line.features : []).map((feature: string, featureIndex: number) => (
                               <li key={featureIndex} className="flex items-start text-sm text-slate-600">

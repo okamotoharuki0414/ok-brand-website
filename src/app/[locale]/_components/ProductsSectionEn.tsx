@@ -12,13 +12,13 @@ export default function ProductsSectionEn() {
       key: 'mikan',
       title: 'Mandarin Oranges',
       description: 'Premium canned mandarin oranges made from carefully selected domestic fruit',
-      image: '/images/みかん商品.avif',
+      image: '/images/mikan-products.avif',
     },
     {
       key: 'peach',
       title: 'Yellow Peaches',
       description: 'Sweet and juicy yellow peaches preserved at peak ripeness',
-      image: '/images/桃.avif',
+      image: '/images/peach.avif',
     },
     {
       key: 'tomato',
@@ -30,13 +30,13 @@ export default function ProductsSectionEn() {
       key: 'mushroom',
       title: 'Mushrooms',
       description: 'High-quality mushrooms carefully selected and processed',
-      image: '/images/マッシュルーム.avif',
+      image: '/images/mushroom.avif',
     },
     {
       key: 'frozen',
       title: 'Frozen Fruits',
       description: 'Year-round availability of fresh, frozen fruit products',
-      image: '/images/冷凍みかんイメージ_edited.avif',
+      image: '/images/frozen-mikan.avif',
     }
   ]
 

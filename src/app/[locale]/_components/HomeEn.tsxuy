@@ -1,4 +1,9 @@
+'use client'
+
+import { useLocale } from 'next-intl'
+
 export default function HomeEn() {
+  const locale = useLocale()
   return (
     <main className="min-h-screen">
       {/* Hero */}
@@ -11,7 +16,7 @@ export default function HomeEn() {
             Founded in 1921. With over a century of expertise, we deliver safe, reliable foods made with carefully selected domestic ingredients.
           </p>
           <a
-            href="/en/goods"
+            href={`/${locale}/goods`}
             className="inline-block mt-6 bg-orange-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-orange-700 transition"
           >
             View Products
@@ -28,7 +33,7 @@ export default function HomeEn() {
               Since our founding in 1921, we have continued to craft foods with a commitment to Japanese ingredients and rigorous quality control, bringing safety and great taste to your table.
             </p>
             <a
-              href="/en/company"
+              href={`/${locale}/company`}
               className="inline-block mt-6 text-blue-900 font-semibold underline underline-offset-4 hover:opacity-80"
             >
               View Company Info
@@ -81,25 +86,25 @@ export default function HomeEn() {
           <p className="mt-3 text-gray-700">Safe, reliable foods centered on Japanese produce.</p>
 
           <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
-              <img src="/images/みかん商品.avif" alt="Mandarin oranges product" className="w-full h-36 object-cover rounded-md" />
+            <a href={`/${locale}/goods`} className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/mikan-products.avif" alt="Mandarin oranges product" className="w-full h-36 object-cover rounded-md" />
               <h3 className="mt-3 font-semibold">Mandarin Oranges</h3>
               <p className="text-sm text-gray-600 mt-1">Canned & pouch</p>
             </a>
 
-            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
-              <img src="/images/桃.avif" alt="Yellow peaches product" className="w-full h-36 object-cover rounded-md" />
+            <a href={`/${locale}/goods`} className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/peach.avif" alt="Yellow peaches product" className="w-full h-36 object-cover rounded-md" />
               <h3 className="mt-3 font-semibold">Yellow Peaches</h3>
               <p className="text-sm text-gray-600 mt-1">Canned & pouch</p>
             </a>
 
-            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
-              <img src="/images/みかんフリー.avif" alt="Frozen fruit" className="w-full h-36 object-cover rounded-md" />
+            <a href={`/${locale}/goods`} className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+              <img src="/images/mikan-farm.avif" alt="Frozen fruit" className="w-full h-36 object-cover rounded-md" />
               <h3 className="mt-3 font-semibold">Frozen Fruits</h3>
               <p className="text-sm text-gray-600 mt-1">Fresh taste, all year</p>
             </a>
 
-            <a href="/en/goods" className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
+            <a href={`/${locale}/goods`} className="block p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition">
               <img src="/images/工場写真.avif" alt="Production lines" className="w-full h-36 object-cover rounded-md" />
               <h3 className="mt-3 font-semibold">Production Lines</h3>
               <p className="text-sm text-gray-600 mt-1">Quality born of tradition & tech</p>
@@ -108,7 +113,7 @@ export default function HomeEn() {
 
           <div className="mt-8">
             <a
-              href="/en/goods"
+              href={`/${locale}/goods`}
               className="inline-block bg-gray-900 text-white px-6 py-3 rounded-md font-semibold hover:bg-black transition"
             >
               View All Products
@@ -139,7 +144,7 @@ export default function HomeEn() {
             Questions about our products or services? We’re here to help.
           </p>
           <a
-            href="/en/contact"
+            href={`/${locale}/contact`}
             className="inline-block mt-6 bg-orange-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-orange-700 transition"
           >
             Contact

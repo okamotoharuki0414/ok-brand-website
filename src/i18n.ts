@@ -1,14 +1,28 @@
-import { notFound } from 'next/navigation';
-import { getRequestConfig } from 'next-intl/server';
+import {getRequestConfig} from 'next-intl/server';
 
-// Can be imported from a shared config
-const locales = ['ja', 'en'];
-
-export default getRequestConfig(async ({ locale }) => {
-  // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale)) notFound();
-
-  return {
-    messages: (await import(`../messages/${locale}.json`)).default
-  };
+export default getRequestConfig(async ({locale}) => {
+  // Provide fallback locale if undefined
+  const validLocale = locale || 'ja';
+  
+  // Debug logging
+  console.log('[i18n.ts] Loading locale:', validLocale);
+  
+  try {
+    const messages = (await import(`../messages/${validLocale}.json`)).default;
+    console.log('[i18n.ts] Messages loaded successfully for:', validLocale);
+    console.log('[i18n.ts] Sample message (company.heading):', messages?.company?.heading);
+    
+    return {
+      locale: validLocale,
+      messages
+    };
+  } catch (error) {
+    console.error('[i18n.ts] Error loading messages for locale:', validLocale, error);
+    // Fallback to Japanese messages
+    const fallbackMessages = (await import(`../messages/ja.json`)).default;
+    return {
+      locale: validLocale,
+      messages: fallbackMessages
+    };
+  }
 });

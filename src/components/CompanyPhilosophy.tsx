@@ -1,4 +1,9 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
+
 export default function CompanyPhilosophy() {
+  const t = useTranslations('company')
   return (
     <section className="py-24 px-4 bg-neutral-50">
       <div className="max-w-7xl mx-auto">
@@ -9,7 +14,7 @@ export default function CompanyPhilosophy() {
             </h2>
             <div className="w-16 h-px bg-slate-400 mx-auto"></div>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
-              良い製品は良い原料からしかつくることはできません
+              {t('philosophy.missionStatement')}
             </p>
           </div>
         </div>
@@ -22,10 +27,9 @@ export default function CompanyPhilosophy() {
               </svg>
             </div>
             <div className="space-y-3">
-              <h3 className="text-xl font-medium text-slate-800">笑顔</h3>
+              <h3 className="text-xl font-medium text-slate-800">{t('philosophy.smile.title')}</h3>
               <p className="text-slate-600 leading-relaxed font-light">
-                お客様の笑顔のために、<br />
-                常に最高の品質を追求します
+                {t('philosophy.smile.description')}
               </p>
             </div>
           </div>
@@ -37,10 +41,9 @@ export default function CompanyPhilosophy() {
               </svg>
             </div>
             <div className="space-y-3">
-              <h3 className="text-xl font-medium text-slate-800">感謝</h3>
+              <h3 className="text-xl font-medium text-slate-800">{t('philosophy.gratitude.title')}</h3>
               <p className="text-slate-600 leading-relaxed font-light">
-                生産者の皆様への感謝を忘れず、<br />
-                信頼関係を大切にします
+                {t('philosophy.gratitude.description')}
               </p>
             </div>
           </div>
@@ -52,10 +55,9 @@ export default function CompanyPhilosophy() {
               </svg>
             </div>
             <div className="space-y-3">
-              <h3 className="text-xl font-medium text-slate-800">健康</h3>
+              <h3 className="text-xl font-medium text-slate-800">{t('philosophy.health.title')}</h3>
               <p className="text-slate-600 leading-relaxed font-light">
-                健康で豊かな食生活の<br />
-                発展に貢献します
+                {t('philosophy.health.description')}
               </p>
             </div>
           </div>
@@ -63,46 +65,46 @@ export default function CompanyPhilosophy() {
 
         <div className="bg-white rounded-lg p-8 md:p-12 shadow-sm">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-serif text-slate-800 mb-8 text-center">経営方針</h3>
+            <h3 className="text-2xl font-serif text-slate-800 mb-8 text-center">{t('managementPolicy.title')}</h3>
             <div className="space-y-6 text-slate-700 leading-relaxed">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-4">
                   <h4 className="font-medium text-slate-800 flex items-center">
                     <span className="w-2 h-2 bg-slate-400 rounded-full mr-3"></span>
-                    品質第一
+                    {t('managementPolicy.qualityFirst.title')}
                   </h4>
                   <p className="text-sm leading-relaxed ml-5">
-                    原料選定から製造工程まで、一貫した品質管理体制を構築し、お客様に安心してお召し上がりいただける商品をお届けします。
+                    {t('managementPolicy.qualityFirst.description')}
                   </p>
                 </div>
                 
                 <div className="space-y-4">
                   <h4 className="font-medium text-slate-800 flex items-center">
                     <span className="w-2 h-2 bg-slate-400 rounded-full mr-3"></span>
-                    技術革新
+                    {t('managementPolicy.innovation.title')}
                   </h4>
                   <p className="text-sm leading-relaxed ml-5">
-                    伝統の技術を継承しながら、最新の技術導入により、より良い商品の開発と製造効率の向上を図ります。
+                    {t('managementPolicy.innovation.description')}
                   </p>
                 </div>
                 
                 <div className="space-y-4">
                   <h4 className="font-medium text-slate-800 flex items-center">
                     <span className="w-2 h-2 bg-slate-400 rounded-full mr-3"></span>
-                    社会貢献
+                    {t('managementPolicy.socialContribution.title')}
                   </h4>
                   <p className="text-sm leading-relaxed ml-5">
-                    地域社会との調和を図り、環境に配慮した事業活動を通じて、持続可能な社会の実現に貢献します。
+                    {t('managementPolicy.socialContribution.description')}
                   </p>
                 </div>
                 
                 <div className="space-y-4">
                   <h4 className="font-medium text-slate-800 flex items-center">
                     <span className="w-2 h-2 bg-slate-400 rounded-full mr-3"></span>
-                    人材育成
+                    {t('managementPolicy.humanDevelopment.title')}
                   </h4>
                   <p className="text-sm leading-relaxed ml-5">
-                    従業員一人ひとりの成長を支援し、働きがいのある職場環境の整備に努めます。
+                    {t('managementPolicy.humanDevelopment.description')}
                   </p>
                 </div>
               </div>

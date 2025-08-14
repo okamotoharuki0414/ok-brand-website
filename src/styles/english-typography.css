@@ -1,0 +1,106 @@
+/* English Typography Optimizations */
+
+/* English-specific font stack */
+[lang="en"] {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+/* Improve English text readability */
+[lang="en"] h1, [lang="en"] h2, [lang="en"] h3, [lang="en"] h4, [lang="en"] h5, [lang="en"] h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* Better word breaking for English */
+[lang="en"] .word-break-english {
+  word-break: break-word;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+}
+
+/* English-specific button styling */
+[lang="en"] .btn-english {
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-transform: none;
+}
+
+/* Navigation text optimization for English */
+[lang="en"] .nav-text {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Card title optimization */
+[lang="en"] .card-title {
+  line-height: 1.3;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+/* Form label optimization */
+[lang="en"] .form-label {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Long text content optimization */
+[lang="en"] .content-text {
+  line-height: 1.6;
+  hyphens: auto;
+  text-align: left;
+}
+
+/* Footer text optimization */
+[lang="en"] .footer-text {
+  line-height: 1.5;
+  hyphens: auto;
+}
+
+/* Responsive font sizes for English */
+@media (max-width: 640px) {
+  [lang="en"] h1 { font-size: 1.875rem; }
+  [lang="en"] h2 { font-size: 1.5rem; }
+  [lang="en"] h3 { font-size: 1.25rem; }
+  [lang="en"] .btn-large { font-size: 0.9rem; }
+}
+
+@media (min-width: 1024px) {
+  [lang="en"] h1 { font-size: 3rem; }
+  [lang="en"] h2 { font-size: 2.5rem; }
+  [lang="en"] h3 { font-size: 1.875rem; }
+  [lang="en"] .btn-large { font-size: 1.1rem; }
+}
+
+/* Improve English text in cards */
+[lang="en"] .product-card-title {
+  font-size: 1rem;
+  line-height: 1.4;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+@media (min-width: 1024px) {
+  [lang="en"] .product-card-title {
+    font-size: 1.125rem;
+  }
+}
+
+/* Navigation menu English optimization */
+[lang="en"] .nav-menu {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Contact form English styling */
+[lang="en"] .contact-form-title {
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+[lang="en"] .contact-form-subtitle {
+  line-height: 1.4;
+  letter-spacing: 0;
+}

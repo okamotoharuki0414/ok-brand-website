@@ -26,26 +26,16 @@ export default function NewsSection() {
   const newsItems = getNewsItems(locale)
 
   return (
-    <section className="py-24 px-4 bg-white">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-20 px-4 bg-stone-50">
+      <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="space-y-4">
-            <h2 className="text-4xl md:text-5xl font-serif text-slate-800 tracking-wide">
-              {locale === 'ja' ? 'News & Topics' : 'News & Updates'}
+            <h2 className="text-2xl md:text-3xl font-serif text-slate-700 tracking-wide leading-tight">
+              {t('title')}
             </h2>
-            <div className="w-16 h-px bg-slate-400 mx-auto"></div>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
-              {locale === 'ja' ? (
-                <>
-                  私たちの取り組みや最新情報を<br className="hidden sm:block" />
-                  定期的にお伝えしています。
-                </>
-              ) : (
-                <>
-                  We regularly share updates about our<br className="hidden sm:block" />
-                  initiatives and latest news.
-                </>
-              )}
+            <div className="w-12 h-px bg-slate-400 mx-auto"></div>
+            <p className="text-base text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
+              {t('subtitle')}
             </p>
           </div>
         </div>
@@ -54,7 +44,7 @@ export default function NewsSection() {
           {newsItems.map((item) => (
             <article key={item.id} className="group">
               <Link href={`/${locale}/news/${item.slug}`}>
-                <div className="bg-white shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden">
+                <div className="bg-white shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-stone-200">
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
                       src={item.image}
@@ -77,11 +67,11 @@ export default function NewsSection() {
                         {item.date}
                       </time>
                       
-                      <h3 className="text-lg font-medium text-slate-800 leading-tight group-hover:text-slate-600 transition-colors duration-300 line-clamp-2">
+                      <h3 className="text-base lg:text-lg font-medium text-slate-800 leading-tight group-hover:text-slate-600 transition-colors duration-300 line-clamp-2 hyphens-auto break-words">
                         {item.title}
                       </h3>
                       
-                      <p className="text-slate-600 text-sm leading-relaxed font-light line-clamp-3">
+                      <p className="text-slate-600 text-sm leading-relaxed font-light line-clamp-3 hyphens-auto">
                         {item.excerpt}
                       </p>
                     </div>
@@ -102,7 +92,7 @@ export default function NewsSection() {
         <div className="text-center">
           <Link
             href={`/${locale}/news`}
-            className="inline-flex items-center bg-white text-blue-900 border-2 border-blue-900 px-8 py-4 font-medium tracking-wide hover:bg-blue-50 transition-colors duration-300 group"
+            className="inline-flex items-center bg-white text-slate-700 border-2 border-slate-300 px-8 py-4 font-medium tracking-wide hover:bg-slate-50 transition-colors duration-300 group"
           >
             {t('viewMore')}
             <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

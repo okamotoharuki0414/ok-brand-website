@@ -45,7 +45,7 @@ export default async function NewsDetailPage({ params }: Props) {
               <svg className="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
-              {locale === 'ja' ? 'お知らせ一覧に戻る' : 'Back to News List'}
+{locale === 'ja' ? 'お知らせ一覧に戻る' : 'Back to News List'}
             </Link>
           </div>
           

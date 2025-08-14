@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@formatjs/intl": "^3.1.6",
+    "@types/nodemailer": "^6.4.17",
     "autoprefixer": "^10.4.21",
     "express": "^5.1.0",
     "firebase": "^10.8.0",
@@ -20,6 +21,7 @@
     "glob": "^11.0.3",
     "next": "^15.4.6",
     "next-intl": "^4.3.4",
+    "nodemailer": "^7.0.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "tailwindcss": "^3.4.17",

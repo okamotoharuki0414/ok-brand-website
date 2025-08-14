@@ -1,20 +1,22 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useTranslations } from 'next-intl'
 
 const navigationItems = [
-  { id: 'greeting', label: 'ごあいさつ' },
-  { id: 'mission', label: '企業理念' },
-  { id: 'overview', label: '会社概要' },
-  { id: 'history', label: '沿革' },
-  { id: 'features', label: '当社の特徴' },
-  { id: 'production', label: '製造ライン' },
-  { id: 'access', label: 'アクセス' }
+  { id: 'greeting', labelKey: 'nav.greeting' },
+  { id: 'mission', labelKey: 'nav.mission' },
+  { id: 'overview', labelKey: 'nav.overview' },
+  { id: 'history', labelKey: 'nav.history' },
+  { id: 'features', labelKey: 'nav.features' },
+  { id: 'production', labelKey: 'nav.production' },
+  { id: 'access', labelKey: 'nav.access' }
 ]
 
 export default function CompanyNavigation() {
   const [activeSection, setActiveSection] = useState('')
   const [isSticky, setIsSticky] = useState(false)
+  const t = useTranslations('company')
 
   useEffect(() => {
     const handleScroll = () => {
@@ -83,7 +85,7 @@ export default function CompanyNavigation() {
                       : 'text-slate-600 hover:text-slate-800 hover:bg-slate-100'
                   }`}
                 >
-                  {item.label}
+                  {t(item.labelKey)}
                 </button>
               ))}
             </div>
