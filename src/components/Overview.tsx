@@ -71,7 +71,7 @@ export default function Overview() {
               <span className="text-xl">🏭</span>
             </div>
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">企業基本情報</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">{t('sections.basicInfo')}</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-6">
                   <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
@@ -111,7 +111,7 @@ export default function Overview() {
               <span className="text-xl">📍</span>
             </div>
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">所在地・連絡先</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">{t('sections.location')}</h3>
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
                 <div className="text-sm text-blue-700 font-semibold mb-4">{t('labels.address')}</div>
                 <div className="text-lg text-gray-800 leading-relaxed">

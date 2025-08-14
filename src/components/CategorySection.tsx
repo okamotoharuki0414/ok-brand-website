@@ -140,18 +140,32 @@ export default function CategorySection({ title, description, products, image }:
           </div>
         </ScrollReveal>
 
-        <StaggerReveal staggerDelay={200} baseDelay={900} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-          {products.map((product, index) => (
-            <ProductCard
-              key={index}
-              name={product.name}
-              description={product.description}
-              image={product.image}
-              category={title}
-              specs={product.specs}
-            />
-          ))}
-        </StaggerReveal>
+        <ScrollReveal direction="up" delay={900}>
+          <div className="overflow-x-auto scrollbar-hide -mx-4 px-4">
+            <div className="flex space-x-6 lg:space-x-8 pb-6">
+              {products.map((product, index) => (
+                <div key={index} className="flex-shrink-0 w-80 lg:w-96">
+                  <ProductCard
+                    name={product.name}
+                    description={product.description}
+                    image={product.image}
+                    category={title}
+                    specs={product.specs}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+          <style jsx global>{`
+            .scrollbar-hide {
+              -ms-overflow-style: none;
+              scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+              display: none;
+            }
+          `}</style>
+        </ScrollReveal>
       </div>
     </section>
   )

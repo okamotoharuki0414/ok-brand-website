@@ -94,6 +94,10 @@
       "stats": {
         "yearsHistory": "Years of History",
         "employeeCount": "Employees"
+      },
+      "sections": {
+        "basicInfo": "Basic Company Information",
+        "location": "Location & Contact"
       }
     },
     "philosophy": {

@@ -94,6 +94,10 @@
       "stats": {
         "yearsHistory": "年の歴史",
         "employeeCount": "従業員数"
+      },
+      "sections": {
+        "basicInfo": "企業基本情報",
+        "location": "所在地・連絡先"
       }
     },
     "philosophy": {

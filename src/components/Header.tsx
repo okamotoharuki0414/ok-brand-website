@@ -16,20 +16,21 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center group gap-3">
+          <Link href={`/${locale}`} className="flex items-center group gap-2 sm:gap-3 min-w-0 flex-1">
             <Image
               src={normalizeImageUrl("/images/岡本食品マーク.avif")}
               alt={tHeader('logoAlt')}
               width={48}
               height={48}
-              className="w-12 h-12 object-contain"
+              className="w-10 h-10 sm:w-12 sm:h-12 object-contain flex-shrink-0"
             />
-            <div className="flex flex-col">
-              <div className="text-xl font-black text-gray-800 font-company-name">
-                {tFooter('companyName')}
+            <div className="flex flex-col min-w-0">
+              <div className="text-lg sm:text-xl font-black text-gray-800 font-company-name truncate">
+                <span className="sm:hidden">岡本食品</span>
+                <span className="hidden sm:inline">{tFooter('companyName')}</span>
               </div>
               <div className="text-xs text-slate-500 font-light tracking-wider">
                 {tHeader('est')}
@@ -83,13 +84,15 @@ export default function Header() {
           </div>
 
           {/* Mobile Language Switcher and Menu */}
-          <div className="lg:hidden flex items-center space-x-3">
-            <LanguageSwitcher />
+          <div className="lg:hidden flex items-center space-x-2 flex-shrink-0">
+            <div className="scale-90">
+              <LanguageSwitcher />
+            </div>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-3 text-gray-700 hover:text-orange-600 transition-all duration-200 bg-white/80 backdrop-blur-sm rounded-lg shadow-md hover:shadow-lg border border-gray-200"
+              className="p-2.5 text-gray-700 hover:text-orange-600 transition-all duration-200 bg-white/80 backdrop-blur-sm rounded-lg shadow-md hover:shadow-lg border border-gray-200"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path 
                   strokeLinecap="round" 
                   strokeLinejoin="round" 

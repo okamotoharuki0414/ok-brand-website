@@ -10,7 +10,7 @@ import Access from '@/components/Access'
 
 export default function CompanyPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-16 sm:pt-20">
       <CompanyHero />
       <CompanyGreeting />
       <Mission />
